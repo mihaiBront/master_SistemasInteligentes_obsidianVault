@@ -6,7 +6,7 @@ date:
 tags:
   - "#SJK006-BigDataAnalytics"
 ---
-
+DATASETS: [kaggle](https://www.kaggle.com)
 <div class="page-break" style="page-break-before: always;"></div>
 
 # 0. Notas

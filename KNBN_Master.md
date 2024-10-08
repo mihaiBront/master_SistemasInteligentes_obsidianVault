@@ -7,14 +7,6 @@ kanban-plugin: board
 ## #KNBN-Todo
 
 - [ ] #SJK002-ComputerVIsion
-	## Practical assignment 2 - Spatial Filtering
-	
-	@{2024-10-04} @@{23:45} 
-	
-	The practical assignment should be in Jupiter Notebook format, including code and explanations regarding the exercices in each assignment.
-	
-	[AV](https://aulavirtual.uji.es/course/view.php?id=80733)
-- [ ] #SJK002-ComputerVIsion
 	
 	## Select Team And Topic for Practical Presentation Work
 	
@@ -22,8 +14,31 @@ kanban-plugin: board
 	
 	[Description.pdf](https://aulavirtual.uji.es/mod/resource/view.php?id=5342275)
 	[AV](https://aulavirtual.uji.es/mod/assign/view.php?id=5342276)
+- [ ] #SJK006-BigDataAnalytics 
+	
+	@{2024-10-09} @@{23:45} 
+	
+	## MDX in Pandas
+- [ ] #SJK005-CloudComputing 
+	
+	@{2024-10-24} @@{23:45} 
+	
+	## Seminar 1: Container Technologies:
+	
+	Documento de word sobre los contenedores.
+	
+	@Ainoa @MarcVicente
 - [ ] #SJK001-Robotics 
-	## Seleccionar PAPER que exponer
+	
+	@{2024-11-26} @@{15:00} 
+	## Exponer BOHG17
+	
+	- [ ] Leer
+	- [ ] Presentacion PPT
+	- [ ] Leer preguntas
+	- [ ] Presentar
+	
+	[Bohg17](https://aulavirtual.uji.es/pluginfile.php/7002406/mod_resource/content/11/%5BBohg17%5D%20Interactive%20Perception-%20Leveraging%20Action%20inPerception%20and%20Perception%20in%20Action%20TRO%202017.pdf)
 	
 	[ExcelPresentaciones](https://docs.google.com/spreadsheets/d/122ZrUhUxatPlNhKL0De-PxXPcbXib59r9LjsXVejCMA/edit?gid=0#gid=0)
 	
@@ -32,39 +47,21 @@ kanban-plugin: board
 	## LAB1: Inicio a python
 	
 	- [x] LAB1.1 Intro
-	- [ ] LAB1.2 Algs
-- [ ] #SJK
-	## Organizar todos los archivos disponibles en el AV en carpetas, para todas las asignaturas
-- [ ] #SJK006-BigDataAnalytics 
-	
-	*unknown date*
-	
-	## MDX in Pandas
-- [ ] #SJK003-MachineLearning
-	
-	## Hacer ejercicios de los labs
-	
-	Hacer a mano
-	Repasarse conceptos
-	Hacer en python
-	Hacer en Orange
-	
-	- [ ] Validations (lab 1)
-	- [ ] k-NN (lab 2)
-	- [ ] Decision Trees
-
-
-## #KNBN-InProggress
-
-
-
-## #KNBN-Done-PendingAssessment
-
+	- [x] LAB1.2 Algs
+		- [ ] Acabar algs y explicacion
 
 
 ## #KNBN-Done
 
 **Complete**
+- [ ] #SJK002-ComputerVIsion
+	## Practical assignment 2 - Spatial Filtering
+	
+	@{2024-10-06}  @@{23:45} 
+	
+	The practical assignment should be in Jupiter Notebook format, including code and explanations regarding the exercices in each assignment.
+	
+	[AV](https://aulavirtual.uji.es/course/view.php?id=80733)
 - [ ] #SJK006-BigDataAnalytics 
 	## Prompts a ChatGPT
 	
@@ -79,12 +76,46 @@ kanban-plugin: board
 	[AulaVirtual](https://aulavirtual.uji.es/mod/assign/view.php?id=5339799)
 
 
+## #KNBN-Exam
+
+- [ ] #SJK002-ComputerVIsion 
+	
+	@{2024-12-16} @@{15:00} 
+	## FINAL EXAM
+- [ ] #SJK002-ComputerVIsion 
+	
+	@{2024-12-09} @@{09:45} 
+	## PRESENTATION
+
+
+## #KNBN-InProggress
+
+
+
+## #KNBN-Done-PendingAssessment
+
+
+
 ## #KNBN-Dropped
 
 
 
 ## #KNBN-Investigate
 
+- [ ] #SJK003-MachineLearning
+	
+	## Hacer ejercicios de los labs
+	
+	Hacer a mano
+	Repasarse conceptos
+	Hacer en python
+	Hacer en Orange
+	
+	- [ ] Validations (lab 1)
+	- [ ] k-NN (lab 2)
+	- [ ] Decision Trees
+- [ ] #SJK
+	## Organizar todos los archivos disponibles en el AV en carpetas, para todas las asignaturas
 - [ ] #SJK002-ComputerVIsion 
 	## Grafos
 - [ ] #SJK004-ComputationalIntelligence 
@@ -138,6 +169,6 @@ kanban-plugin: board
 
 %% kanban:settings
 ```
-{"kanban-plugin":"board","list-collapse":[false,false,null,false,false,false,false],"show-relative-date":true,"date-colors":[{"distance":1,"unit":"days","direction":"after","backgroundColor":"rgba(189, 255, 181, 1)","color":"rgba(19, 144, 0, 1)","isAfter":true},{"distance":1,"unit":"days","direction":"after","isBefore":true,"backgroundColor":"rgba(255, 0, 0, 1)","color":"rgba(255, 222, 222, 1)"},{"distance":7,"unit":"days","direction":"after","backgroundColor":"rgba(255, 243, 174, 1)","color":"rgba(115, 90, 0, 1)"}],"append-archive-date":true,"date-picker-week-start":1,"show-checkboxes":false,"new-line-trigger":"enter","full-list-lane-width":false}
+{"kanban-plugin":"board","list-collapse":[false,false,false,true,true,true,false,false],"show-relative-date":true,"date-colors":[{"distance":1,"unit":"days","direction":"after","backgroundColor":"rgba(189, 255, 181, 1)","color":"rgba(19, 144, 0, 1)","isAfter":true},{"distance":1,"unit":"days","direction":"after","isBefore":true,"backgroundColor":"rgba(255, 0, 0, 1)","color":"rgba(255, 222, 222, 1)"},{"distance":7,"unit":"days","direction":"after","backgroundColor":"rgba(255, 243, 174, 1)","color":"rgba(115, 90, 0, 1)"}],"append-archive-date":true,"date-picker-week-start":1,"show-checkboxes":false,"new-line-trigger":"enter","full-list-lane-width":false}
 ```
 %%

@@ -65,3 +65,27 @@ Types of smoothing:
 
 # 6.3 Predictions
 
+$X = [x_1, x_2 ..., x_n]$
+$Y = [y_1, y_2 ..., y_n]$
+$\hat{Y} = [\hat{y}_1, \hat{y}_2 ..., \hat{y}_n]$
+
+- X represents a random variable whose values are observed over time (train) 
+- Y represents the true values of the time series for the test 
+- Ŷ represents the predicted values for the test 
+- The model M learns patterns from X to predict Ŷ 
+- Comparing Y and Ŷ (errors) gives us the quality of the model (MAE, RMSE, etc.)
+
+![[Pasted image 20241007181822.png]]
+![[Pasted image 20241007182008.png]]
+
+Donde, en los modelos tradicionales:
+- $p$ es la ventana de predicción
+- $q$ es la ventana de suavizado
+- $d$ es el intervalo de diferenciación
+
+*Esto funciona con el baseline, el modelo que da los resultados minimamente buenos, si es peor que esto...malament*
+
+En el **machine learning** -> Modelos en su version regresora;
+- Features (dimensiones) -> parametros como p, q, d
+- <s>Class</s> Regression -> Prediction
+

@@ -308,6 +308,20 @@
           "b": 221
         },
         "luminance_offset": 0.15
+      },
+      {
+        "tag_name": "KNBN-Exam",
+        "color": {
+          "r": 194,
+          "g": 255,
+          "b": 243
+        },
+        "background_color": {
+          "r": 0,
+          "g": 214,
+          "b": 171
+        },
+        "luminance_offset": 0.15
       }
     ],
     "EnableMultipleTags": false,

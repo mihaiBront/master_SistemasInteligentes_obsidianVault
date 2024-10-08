@@ -1,5 +1,19 @@
 {
-  "userAdmonitions": {},
+  "userAdmonitions": {
+    "reminder": {
+      "type": "reminder",
+      "color": "24, 204, 0",
+      "icon": {
+        "name": "lightbulb",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "title": "Reminder",
+      "injectColor": true,
+      "noTitle": false,
+      "copy": false
+    }
+  },
   "syntaxHighlight": false,
   "copyButton": false,
   "version": "10.3.2",

@@ -10,7 +10,7 @@ tags:
 *"An **INTELLIGENT** agent is an entity capable of performing autonomous, flexible actions in an environment."*
 
 **Flexible** implies:
-- Reactive: Holds continuous interactions w/the environment. Reacts to the simules in its medium
+- Reactive: Holds continuous interactions w/the environment. Reacts to the simulates in its medium
 - Pro-Active: Oportunistic interpretation of the changes in the dynamics of the medium
 - Social: Interacts, and solicitates information other agents in the environment
 
