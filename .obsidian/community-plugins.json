@@ -10,10 +10,13 @@
   "obsidian-custom-frames",
   "code-emitter",
   "code-styler",
-  "obsidian-autocomplete-plugin",
   "toggle-dark-mode",
   "calendar",
   "obsidian-advanced-slides",
   "better-export-pdf",
-  "table-editor-obsidian"
+  "table-editor-obsidian",
+  "mermaid-tools",
+  "obsidian-pandoc",
+  "obsidian-enhancing-export",
+  "pdf-plus"
 ]

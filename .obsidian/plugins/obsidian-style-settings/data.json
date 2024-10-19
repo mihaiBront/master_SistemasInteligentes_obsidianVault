@@ -24,7 +24,7 @@
   "ulu-theme-settings@@ulu-cards-border": true,
   "ulu-theme-settings@@ulu-cards-shadow": false,
   "ulu-theme-settings@@ulu-radius": "var(--radius-m)",
-  "ulu-theme-settings@@ulu-callouts": "none",
+  "ulu-theme-settings@@ulu-callouts": "ulu-gummy-callouts",
   "ulu-theme-settings@@ulu-border": "none",
   "ulu-theme-settings@@ulu-grad": false,
   "ulu-theme-settings@@ulu-notitle": false,

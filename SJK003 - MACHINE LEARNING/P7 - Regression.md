@@ -81,3 +81,84 @@ By aplying derivatives with respect to b0 and b1, and setting them = 0 (maximum 
 **Is the inferred model adequate for the general problem?**
 
 # 7.4 Hypothesis testing
+- The Pearson $r$ coefficient is equal to $R^2$, and informs us of the amount of outputs predicted match the reality (the higher the better)
+- We have to draw conclusions also about populations (samples), and not just the samples, for which the $t-test$ is useful
+	- The t-test allows validating linear relationship between the predictor variable and the response variable:
+		$H_0:\beta_1 = 0$, the null hypothesis (no correlation) -> should be rejected with a certain confidence level
+		$H_0:\beta_1 \neq 0$, the alternative hypothesis, this should be proven for our model to be valid; there is a significant linear relationship between the variables
+	- Steps for hypothesis testing:
+		1. Specify the null and alternative hypotheses
+		2. Set a significance level $\alpha$ (typically 0.01 - 0.05)
+		3. construct a statistic 𝑇 to test the null hypothesis $H_o$
+		4. define a decision rule to reject, or not, the null hypothesis $𝐻_0$ 
+
+>[!abstract] Annotation:
+>Note that the intercept 𝛽0 determines the average value of the variable Y for a value of X equal to zero. Since it does not always have a realistic interpretation in the context of the problem, we only make statistical inference about the slope
+
+
+## 7.4.1 Hypothesis check
+
+### 1. Specify the null and alternative hypotheses
+
+$H_0:\beta_1 = 0$, the null hypothesis (no correlation) -> should be rejected with a certain confidence level
+
+$H_0:\beta_1 \neq 0$, the alternative hypothesis, this should be proven for our model to be valid; there is a significant linear relationship between the variables
+### 2. Set a significance level $\alpha$ (typically 0.01 - 0.05)
+
+
+### 3. construct a statistic 𝑇 to test the null hypothesis $H_o$
+
+![[Pasted image 20241010182340.png]]
+### 4. define a decision rule to reject, or not, the null hypothesis $𝐻_0$ 
+
+![[Pasted image 20241010182354.png]]
+
+### Interpreting result
+
+interpreting the result of the hypothesis test 
+-  the 𝑝-value indicates how likely is it to get such an extreme 𝑇 value if the null hypothesis 𝐻0 is true 
+- if 𝑝-value ≤ 𝛼 means that there is sufficient evidence at the level $\alpha$ to conclude that there is a linear relationship in the population between the predictor and response variables → we reject the null hypothesis $𝐻_0$ – rejecting $𝐻_0$ entails accepting 𝐻𝑎 → there is a significant linear relationship between the variables 
+- given 𝑇 and 𝑛 − 2, the 𝑝-value is obtained from the Student’s t-distribution tables or from some web sites
+
+>[!example] Example reggression:
+>Sample set
+>![[Pasted image 20241010182602.png]]
+>Calculation of $\beta_0$, $\beta_1$
+>![[Pasted image 20241010182612.png]]
+>![[Pasted image 20241010182623.png]]
+>Reggression line is defined:
+>![[Pasted image 20241010182644.png]]
+>Making the predictions (estimate the weight of a person that is 160cm tall)
+>![[Pasted image 20241010182753.png]]
+>60kg...ok
+>Calculate $R^2$ (determination coef; extra columns for variables in equation):
+>ObsH, ObsW, EstW, $Error_{obs/mean}$, $Error_{obs/mean}^2$, $\% error_{pred,mean}$,$\% error_{pred,mean}^2$, error, $error^2$ 
+>![[Pasted image 20241010182845.png]]
+>![[Pasted image 20241010183258.png]]
+>$R^2$ is 0.561 (which means approx half of the observations can be predicted with this regression) 
+>$r = \sqrt(R^2) = \pm 0.749$ (relationship)
+>
+>This tells us that the relationship is moderate, not reaching 0.8, which would be considered a strong correlation, but it is close nonetheless
+>
+>Residual analysis (works as a preliminary validation; difference between predicted and observed):
+>![[Pasted image 20241010183718.png]]
+>
+>*We cannot observe any type of structure in the representation. Therefore, we can conclude that the regression model obtained is a good model to explain the relationship between the two variables*
+>
+>Objective is to have all those diferences well distributed up and down from 0, and the closest possible
+>
+>**TEST HIPOTHESIS**
+>
+>Specify the null alternative hypothesis:
+>- Null hypothesis: 𝐻0: 𝛽1 = 0 (the variable 𝑥 is not explanatory) 
+>- Alternative hypothesis: 𝐻𝑎: 𝛽1 ≠ 0 (the variable 𝑥 is explanatory)
+>  
+>Significance level $\alpha = 0.05 = 5\%$
+> 
+> Construct statistic T to test the null hypothesis:
+> ![[Pasted image 20241010184129.png]]
+> 
+> Can we reject the null hipothesis?
+> ![[Pasted image 20241010184147.png]]
+
+
