@@ -50,7 +50,9 @@ Organization:
 
 - *POLA-RS*
 	- Lazy frames, loads a structure, sort of template to memory and instead of performing computations on the *DF*, it constructs a workflow that is not executed until `lf.collect()` is called.
+
 - *VAEX.io*
 	- Also implements lazy frames, but in a smaller measure -> Virtual Columns (not stored, but stored the formulas if they are derved of other columns)
 	- Oriented to visual representation of temporal-spatial data
+	
 - *DUCK-DB*: Encapsulates pandas inside an SQL interface.

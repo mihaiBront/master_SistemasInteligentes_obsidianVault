@@ -238,3 +238,58 @@ For training, apply clustering to the collection of example, in order to obtain 
 
 ![[Pasted image 20241021172538.png]]
 
+## 8.4.1 Feature extraction:
+
+For example, using SIFT:
+
+![[Pasted image 20241021173133.png]]
+
+Each descriptor corresponds to a point in our space of characteristics (in this case, 128 dimensions)
+
+![[Pasted image 20241021173240.png]]
+
+A clustering process is applied (let's say K-Means), and classes are made.
+
+From where the centroids are get:
+
+![[Pasted image 20241021173346.png]]
+##  8.4.2 Learning the visual vocabulary
+
+Clustering is a common method for learning a visual vocabulary or codebook 
+- Unsupervised learning process 
+- Each cluster center produced by k-means becomes a codevector 
+- Codebook can be learned on separate training set
+- Provided the training set is sufficiently representative, the codebook will general enough. 
+
+The codebook is used for quantizing features 
+- A vector quantizer takes a feature vector and maps it to the index of the nearest codevector in a codebook
+- Codebook = visual vocabulary 
+- Codevector = visual word
+
+**Process for dummies:**
+
+1. We calculate characteristic points
+2. Get patch -> Descriptor
+3. Classify by nearest centroid
+4. Elaborate a histogram with $bins = N_{classes}$
+5. The histogram is the bag of visual words
+6. That histogram allows characterizing an image acording to the trained "words"
+
+>[!example] BoW with cars
+>Train
+>![[Pasted image 20241021174123.png]]
+>Analyse image:
+>![[Pasted image 20241021174203.png]]
+>We have this image classified by 
+
+
+**Issues**:
+
+- Vocabulary size:
+  ![[Pasted image 20241021174629.png]]
+
+**Spatial Layout**
+
+- Spatial layout
+- Spatial pyramid representation: Extension of a bag, where locally order-less representation is made at several levels of resolution:
+  ![[Pasted image 20241021174902.png]]

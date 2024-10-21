@@ -33,16 +33,14 @@
             "id": "700fb9b39cc9c35a",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "_aula_virtual/SJK002/SJK002-U8-InterestPoints-Bow.pdf",
-                "page": 45,
-                "left": 515,
-                "top": -41,
-                "zoom": 0.3669833729216152
+                "file": "SJK006 - BIG DATA ANALYTICS/P7 - Scaling up data analytics.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "SJK002-U8-InterestPoints-Bow"
+              "icon": "lucide-file",
+              "title": "P7 - Scaling up data analytics"
             }
           }
         ]
@@ -271,18 +269,18 @@
   },
   "active": "700fb9b39cc9c35a",
   "lastOpenFiles": [
-    "SJK002 - COMPUTER VISION/P8 - Interest Points (bag of words).md",
-    "_res/_assets/_images/Pasted image 20241021172538.png",
     "_aula_virtual/SJK002/SJK002-U8-InterestPoints-Bow.pdf",
+    "SJK002 - COMPUTER VISION/P8 - Interest Points (bag of words).md",
+    "_res/_assets/_images/Pasted image 20241021174902.png",
+    "_res/_assets/_images/Pasted image 20241021174629.png",
+    "_res/_assets/_images/Pasted image 20241021174203.png",
+    "_res/_assets/_images/Pasted image 20241021174123.png",
+    "_res/_assets/_images/Pasted image 20241021173346.png",
+    "_res/_assets/_images/Pasted image 20241021173240.png",
+    "_res/_assets/_images/Pasted image 20241021173224.png",
+    "_res/_assets/_images/Pasted image 20241021173133.png",
+    "_res/_assets/_images/Pasted image 20241021172538.png",
     "_res/_assets/_images/Pasted image 20241021172337.png",
-    "_res/_assets/_images/Pasted image 20241021172226.png",
-    "_res/_assets/_images/Pasted image 20241021172104.png",
-    "_res/_assets/_images/Pasted image 20241021171843.png",
-    "_res/_assets/_images/Pasted image 20241021171457.png",
-    "_res/_assets/_images/Pasted image 20241021162944.png",
-    "_res/_assets/_images/Pasted image 20241021162907.png",
-    "_res/_assets/_images/Pasted image 20241021162803.png",
-    "_res/_assets/_images/Pasted image 20241021162216.png",
     "_aula_virtual/SJK004/Unit 1_ Modelling an Intelligent agent_3.pdf",
     "SJK004 - COMPUTATIONAL INTELLIGENCE/P1 -  Modelling an intelligent system.md",
     "_aula_virtual/SJK004/Unit 1_ Modelling an Intelligent agent_2.pdf",
