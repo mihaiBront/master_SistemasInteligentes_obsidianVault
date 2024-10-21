@@ -18,5 +18,6 @@
   "mermaid-tools",
   "obsidian-pandoc",
   "obsidian-enhancing-export",
-  "pdf-plus"
+  "pdf-plus",
+  "obsidian-git"
 ]
