@@ -4,43 +4,45 @@
     "type": "split",
     "children": [
       {
-        "id": "f4064db9f30fbd97",
+        "id": "5705b87e7981a0cd",
         "type": "tabs",
-        "dimension": 34.18230563002681,
+        "dimension": 31.233243967828418,
         "children": [
           {
-            "id": "c61dcace97b16bc3",
+            "id": "1b2b493308a06bbd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SJK002 - COMPUTER VISION/P8 - Interest Points (bag of words).md",
+                "file": "SJK003 - MACHINE LEARNING/P10 - Dimensionality reduction.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "P8 - Interest Points (bag of words)"
+              "title": "P10 - Dimensionality reduction"
             }
           }
         ]
       },
       {
-        "id": "a0a48654427aef23",
+        "id": "984b8c599025dd06",
         "type": "tabs",
-        "dimension": 65.8176943699732,
+        "dimension": 68.76675603217159,
         "children": [
           {
-            "id": "700fb9b39cc9c35a",
+            "id": "e842446ad48b3627",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "SJK006 - BIG DATA ANALYTICS/P7 - Scaling up data analytics.md",
-                "mode": "source",
-                "source": false
+                "file": "_aula_virtual/SJK003/10-dimensionalityReduction.pdf",
+                "page": 2,
+                "left": -15,
+                "top": 512,
+                "zoom": 0.9979166666666668
               },
-              "icon": "lucide-file",
-              "title": "P7 - Scaling up data analytics"
+              "icon": "lucide-file-text",
+              "title": "10-dimensionalityReduction"
             }
           }
         ]
@@ -99,7 +101,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 306.5
+    "width": 306.5,
+    "collapsed": true
   },
   "right": {
     "id": "35efe60a2e491571",
@@ -267,34 +270,36 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "700fb9b39cc9c35a",
+  "active": "e842446ad48b3627",
   "lastOpenFiles": [
-    "_aula_virtual/SJK002/SJK002-U8-InterestPoints-Bow.pdf",
+    "SJK003 - MACHINE LEARNING/P10 - Dimensionality reduction.md",
+    "_aula_virtual/SJK003/10-dimensionalityReduction.pdf",
+    "_aula_virtual/SJK003/10-dimensionalityReduction.pdf.crdownload",
+    "SJK003 - MACHINE LEARNING/P9 - Clustering (non supervised learning).md",
+    "_res/_assets/_images/Pasted image 20241023162728.png",
+    "_aula_virtual/SJK003/09-clustering.pdf",
+    "_res/_assets/_images/Pasted image 20241023153834.png",
+    "_res/_assets/_images/Pasted image 20241023153806.png",
+    "_res/_assets/_images/Pasted image 20241023153653.png",
+    "_res/_assets/_images/Pasted image 20241023153259.png",
+    "_res/_assets/_images/Pasted image 20241023152340.png",
+    "_res/_assets/_images/Pasted image 20241023152315.png",
+    "_res/_assets/_images/Pasted image 20241023152021.png",
+    "_res/_assets/_images/Pasted image 20241023151408.png",
+    "_res/_assets/_images/Pasted image 20241023151318.png",
+    "Untitled.md",
+    "_aula_virtual/SJK006/5. Descriptive Analysis.pdf",
     "SJK002 - COMPUTER VISION/P8 - Interest Points (bag of words).md",
-    "_res/_assets/_images/Pasted image 20241021174902.png",
-    "_res/_assets/_images/Pasted image 20241021174629.png",
-    "_res/_assets/_images/Pasted image 20241021174203.png",
-    "_res/_assets/_images/Pasted image 20241021174123.png",
-    "_res/_assets/_images/Pasted image 20241021173346.png",
-    "_res/_assets/_images/Pasted image 20241021173240.png",
-    "_res/_assets/_images/Pasted image 20241021173224.png",
-    "_res/_assets/_images/Pasted image 20241021173133.png",
-    "_res/_assets/_images/Pasted image 20241021172538.png",
-    "_res/_assets/_images/Pasted image 20241021172337.png",
+    "SJK006 - BIG DATA ANALYTICS/P7 - Scaling up data analytics.md",
+    "_aula_virtual/SJK002/SJK002-U8-InterestPoints-Bow.pdf",
     "_aula_virtual/SJK004/Unit 1_ Modelling an Intelligent agent_3.pdf",
     "SJK004 - COMPUTATIONAL INTELLIGENCE/P1 -  Modelling an intelligent system.md",
     "_aula_virtual/SJK004/Unit 1_ Modelling an Intelligent agent_2.pdf",
-    "_aula_virtual/SJK003/09-clustering.pdf",
-    "SJK006 - BIG DATA ANALYTICS/P7 - Scaling up data analytics.md",
-    "SJK003 - MACHINE LEARNING/P9 - Clustering (non supervised learning).md",
     "_aula_virtual/SJK003/08-multiclassifiers.pdf",
     "_aula_virtual/SJK003/09-clustering.pdf.crdownload",
     "SJK003 - MACHINE LEARNING/P8 - Multi-Classifiers.md",
     "_aula_virtual/SJK003/02-experimentalDesignI.pdf",
-    "_aula_virtual/SJK003/08-multiclassifiers.pdf.crdownload",
-    "_aula_virtual/SJK001/T1C1 - Presentacion Master SI.pdf",
     "SJK001 - CYBER-PHYSICAL AND ROBOTIC INTELLIGENT SYSTEMS/P4 - Design principles in Artificial Intelligence.md",
-    "_aula_virtual/SJK001/T1C5 - Intro NN.pdf",
     "SJK001 - CYBER-PHYSICAL AND ROBOTIC INTELLIGENT SYSTEMS/_KNBN-Articulos.md",
     "SJK006 - BIG DATA ANALYTICS/P1 - Big Data.md",
     "SJK006 - BIG DATA ANALYTICS/P5 - Descriptive Analysis.md",
@@ -312,8 +317,6 @@
     "SJK002 - COMPUTER VISION/P4 - Image Filtering in Frequency Domain.md",
     "SJK002 - COMPUTER VISION/P3 - Image Filtering in Spatial Domain.md",
     "SJK002 - COMPUTER VISION/P2.3 - Color.md",
-    "SJK002 - COMPUTER VISION/P1-P2.2 - Introducción a la visión.md",
-    "SJK001 - CYBER-PHYSICAL AND ROBOTIC INTELLIGENT SYSTEMS/P3 - Robotics and neural networks.md",
     "Untitled.canvas",
     "MASTER-CANVAS.canvas"
   ]

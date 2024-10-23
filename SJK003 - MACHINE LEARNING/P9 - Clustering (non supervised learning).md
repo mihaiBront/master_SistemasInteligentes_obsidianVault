@@ -133,7 +133,6 @@ If all the cluster plots are beyond the average silhouette score, have mostly un
 The number of clusters is suboptimal if: 
 - the plot for a cluster falls below the average coefficient, or
 - there are wide fluctuations in the size and thickness of the cluster plots
-
 >[!Example] 
 >![[Pasted image 20241016172014.png]]
 >![[Pasted image 20241016172029.png]]
@@ -143,4 +142,147 @@ The number of clusters is suboptimal if:
 >![[Pasted image 20241016172148.png]]
 >
 >Best case is C=4
+
+# 9.3 Hierarchical algorithms
+
+- unsupervised learning algorithms that seek to build a hierarchy between objects while clustering them 
+- these are incremental algorithms 
+- they do not require the number of clusters to be specified initially 
+- it can create very complex shaped clusters 
+- time complexity is quadratic O(n2)
+
+two types:
+
+![[Pasted image 20241023150809.png]]
+
+- **<u>AGGLOMERATIVE</u>**: 
+	***bottom-up***: Starting from a cluster for each object, they merge the most similar clusters into a new cluster until some stopping criterion is met
+	  
+	These algorithms are based on creating a distance matrix. Those distances are updated in function of the type of union selected for the algorithm; the "***criteria of linkage***":
+	- **Single Linkage**: the distance between the two clusters is the shortest distance between objects in those two clusters 
+	- **Complete Linkage**: the distance between the two clusters is the farthest distance (diameter) between objects in those two clusters 
+	- **Average Linkage**: the distance between the two clusters is the average distance of every object in the cluster with every object in the other cluster 
+	- **Centroid linkage**: the distance between the two clusters is the distance between their centroids
+	  
+	![[Pasted image 20241023151212.png]]
+	
+	The **output** is represented by a dendrogram, which shows the hierarchical relationship between the clusters. **similarity** between two objects is represented by the height of the node in the *dendrogram*. (the height is the distance from down to the division node; it represents the distance between two joined classes)
+	
+	![[Pasted image 20241023151318.png]]
+	
+	It is **not sensitive to outliers**
+	![[Pasted image 20241023151408.png]]
+	
+	Pseudocode:
+	1. Compute the distance (similarity) matrix 
+	2. Initialization: each object is a separate cluster 
+	3. repeat 
+		1. Merge the two closest clusters 
+		2. Update the distance matrix
+	4. until reaching only one cluster
+	
+	To select the optimal number of classes, visualizing on a dendogram:
+	![[Pasted image 20241023152021.png]]
+	Find the longest possible *stretch* (most height) that is not interrupted by any division (in this case, 0.4 - 0.54)
+	That is the **obtimal number of classes** (in this case, 4).
+
+
+>[!example] Example for agglomeration:
+>![[Pasted image 20241023152315.png]]
+>![[Pasted image 20241023152340.png]]
+>Te optimal number of classes is 3 (lines placed between 5 and 9)
+
+- **<u>DIVISIVE</u>**:
+	***top-down***: Starting with a single cluster containing all the objects, this cluster is divided until the stopping criterion of the algorithm is verified
+
+# 9.4 Density-based clustering
+
+Algorithms that **assume a cluster is a dense region of points**, **separated** from other clusters **by spare regions**. Useful algorithms when clusters can be arbitrarily shaped, or contain outliers
+
+## 9.4.1 DBSCAN
+
+- clusters are formed by connecting the objects that are densely located in a region 
+- it uses concepts such as core point, border point and noise point to come up with clusters 
+- time complexity is logarithmic O(n·log n)
+
+Important parameters are.
+- $\epsilon$ (epsilon): maximum distance between a pair of objects to be considered of the same class. Decides the size of a circle. (*two points are considered as neighbors if and only if they are separated by a distance less than or equal to epsilon*)
+- Minimum Points ($MinPts$): minimum number of objects to form a cluster. Defines the minimum amount of points in that circle to be considered a cluster.
+![[Pasted image 20241023153259.png]]
+
+When clustering, three types of objects:
+- an object is a <mark style="background-color: white; color:red">core</mark> point if it has at least MinPts including itself within its $\epsilon-neighbourhood$ 
+- an object that is within a neighborhood of a core point but it itself cannot be a core point is a <mark style="background-color: white; color:darkgoldenrod">border</mark> point 
+- an object is a <mark style="background-color: white; color:blue">noise</mark> point if it is neither the a core point nor a border point
+
+![[Pasted image 20241023153653.png]]
+
+Process:
+1. Initially, the algorithm begins by selecting an object randomly from the data set, and checks if the selected point is a core point 
+2. For each core point, find all the connected objects 
+3. Assign each non-core object to the nearest cluster if the cluster is its $\epsilon_{neighbor}$. Otherwise, assign it to noise 
+4. The algorithm stops when it explores all the objects one by one and classifies them as either core, border or noise point
+
+![[Pasted image 20241023153806.png]]
+
+>[!abstract] Summary
+>- **C-means**:
+>	- <mark style="background-color: white; color:darkgreen">pros</mark>:
+>		- can handle large amounts of data 
+>		- simple to implement 
+>	- <mark style="background-color: white; color:red">cons</mark>:
+>		- needs to manually choose the C value 
+>		- sensitive to outliers in the data set 
+>		- dependent on starting point
+>- **Hierarchical clustering**
+>	- <mark style="background-color: white; color:darkgreen">pros</mark>:
+>		- does not need to specify the initial value 
+>		- easy to implement, scalable and easy to understand 
+>	- <mark style="background-color: white; color:red">cons</mark>:
+>		- difficulty to handle a large amount of data 
+>		- no backtracking 
+>		- more space and time complexity
+>- **DBSCAN**
+>	- <mark style="background-color: white; color:darkgreen">pros</mark>:
+>		- does not need to specify the initial value 
+>		- is robust to outliers (noise points)
+>	- <mark style="background-color: white; color:red">cons</mark>:
+>		- dependent on the values of $\epsilon$ and $MinPts$ 
+>		- struggles to work with high dimensionality data
+
+>[!example] Exercice on aggregation:
+>Starting with
+>
+>|   |   |   |   |   |
+|---|---|---|---|---|
+||A|B|C|D|
+|A|0|1|4|5|
+|B||0|2|6|
+|C|||0|3|
+|D||||0|
+>
+> 1. We group $AB$ with $Distance = 1$
+>    Obtaining:
+>    
+> |   |   |   |   |
+|---|---|---|---|
+||BA|C|D|
+|BA|0|4|6|
+|C||0|3|
+|D|||0|
+>
+>2. We group $CD$ with $Distance = 3$
+>   Obtaining:
+>   
+>|   |   |   |
+|---|---|---|
+||BA|DC|
+|BA|0|6|
+|DC||0|
+>
+>3. We group $ABCD$ with $Distance =6$
+> 
+>Dendrogram:
+>![[Pasted image 20241023162728.png]]
+
 
