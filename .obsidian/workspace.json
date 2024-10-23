@@ -6,7 +6,7 @@
       {
         "id": "5705b87e7981a0cd",
         "type": "tabs",
-        "dimension": 31.233243967828418,
+        "dimension": 38.27077747989276,
         "children": [
           {
             "id": "1b2b493308a06bbd",
@@ -27,7 +27,7 @@
       {
         "id": "984b8c599025dd06",
         "type": "tabs",
-        "dimension": 68.76675603217159,
+        "dimension": 61.72922252010724,
         "children": [
           {
             "id": "e842446ad48b3627",
@@ -36,10 +36,10 @@
               "type": "pdf",
               "state": {
                 "file": "_aula_virtual/SJK003/10-dimensionalityReduction.pdf",
-                "page": 3,
-                "left": -22,
-                "top": 516,
-                "zoom": 0.6708333333333334
+                "page": 24,
+                "left": -25,
+                "top": 92,
+                "zoom": 0.5947916666666667
               },
               "icon": "lucide-file-text",
               "title": "10-dimensionalityReduction"
@@ -178,10 +178,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SJK006 - BIG DATA ANALYTICS/P7 - Scaling up data analytics.md"
+                "file": "_aula_virtual/SJK003/10-dimensionalityReduction.pdf"
               },
               "icon": "lucide-list",
-              "title": "Outline of P7 - Scaling up data analytics"
+              "title": "Outline of 10-dimensionalityReduction"
             }
           },
           {
@@ -270,10 +270,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1b2b493308a06bbd",
+  "active": "e842446ad48b3627",
   "lastOpenFiles": [
-    "_aula_virtual/SJK003/10-dimensionalityReduction.pdf",
     "SJK003 - MACHINE LEARNING/P10 - Dimensionality reduction.md",
+    "_aula_virtual/SJK003/10-dimensionalityReduction.pdf",
+    "_res/_assets/_images/Pasted image 20241023171220.png",
+    "_res/_assets/_images/Pasted image 20241023170923.png",
+    "_res/_assets/_images/Pasted image 20241023170851.png",
+    "_res/_assets/_images/Pasted image 20241023170656.png",
+    "_res/_assets/_images/Pasted image 20241023163326.png",
     "_aula_virtual/SJK003/10-dimensionalityReduction.pdf.crdownload",
     "SJK003 - MACHINE LEARNING/P9 - Clustering (non supervised learning).md",
     "_res/_assets/_images/Pasted image 20241023162728.png",
@@ -282,11 +287,6 @@
     "_res/_assets/_images/Pasted image 20241023153806.png",
     "_res/_assets/_images/Pasted image 20241023153653.png",
     "_res/_assets/_images/Pasted image 20241023153259.png",
-    "_res/_assets/_images/Pasted image 20241023152340.png",
-    "_res/_assets/_images/Pasted image 20241023152315.png",
-    "_res/_assets/_images/Pasted image 20241023152021.png",
-    "_res/_assets/_images/Pasted image 20241023151408.png",
-    "_res/_assets/_images/Pasted image 20241023151318.png",
     "Untitled.md",
     "_aula_virtual/SJK006/5. Descriptive Analysis.pdf",
     "SJK002 - COMPUTER VISION/P8 - Interest Points (bag of words).md",
