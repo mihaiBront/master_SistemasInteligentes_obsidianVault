@@ -36,10 +36,10 @@
               "type": "pdf",
               "state": {
                 "file": "_aula_virtual/SJK003/10-dimensionalityReduction.pdf",
-                "page": 2,
-                "left": -15,
-                "top": 512,
-                "zoom": 0.9979166666666668
+                "page": 3,
+                "left": -22,
+                "top": 516,
+                "zoom": 0.6708333333333334
               },
               "icon": "lucide-file-text",
               "title": "10-dimensionalityReduction"
@@ -270,10 +270,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e842446ad48b3627",
+  "active": "1b2b493308a06bbd",
   "lastOpenFiles": [
-    "SJK003 - MACHINE LEARNING/P10 - Dimensionality reduction.md",
     "_aula_virtual/SJK003/10-dimensionalityReduction.pdf",
+    "SJK003 - MACHINE LEARNING/P10 - Dimensionality reduction.md",
     "_aula_virtual/SJK003/10-dimensionalityReduction.pdf.crdownload",
     "SJK003 - MACHINE LEARNING/P9 - Clustering (non supervised learning).md",
     "_res/_assets/_images/Pasted image 20241023162728.png",

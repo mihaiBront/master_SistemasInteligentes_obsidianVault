@@ -6,3 +6,5 @@
 - data analysis could be too computational expensive with huge data sets 
 - noisy instances can lead to misclassifications
 - irrelevant and redundant attributes can hinder any machine learning process
+
+Data reduction is:
