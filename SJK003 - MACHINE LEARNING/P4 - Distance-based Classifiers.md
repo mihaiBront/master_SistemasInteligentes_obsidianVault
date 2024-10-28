@@ -29,7 +29,7 @@ tags:
 >	- No oil spill
 
 ## 4.1.1 Motivation:
-This models are classifiers based off of the idea that "the objects inside a class are the most similar". They use similarity (concieved as distance between vectors) measures defined by some model
+This models are classifiers based off of the idea that "the objects inside a class are the most similar". They use similarity (conceived as distance between vectors) measures defined by some model
 
 # 4.2 Types of distance classifiers
 
@@ -80,6 +80,8 @@ Finding the value of $k$, keep in mind that:
 - The error is 0 for $k=1$
 - The error is high at low values of $k$ due to variance (*overfitting*), has a **valley** and then goes up again due to bias (*underfitting*).
 
+![[Pasted image 20241027183158.png]]
+
 That precise **valley** is the **sweet spot**
 
 **Concepts**:
@@ -125,6 +127,16 @@ $$
 >- **Manhattan** is independent on the path
 
 - **Cosine similarity**: [COMPLETE]
+
+$$
+Sc(\vec{x}, \vec{y}) = cos(\theta) = \frac{\sum_{i=1}^d x_i, y_i}{\sqrt{\sum_{i=1}^d x_i^2}\sqrt{\sum_{i=1}^d y_i^2}}
+$$
+- if $𝑆𝐶(\vec{𝑥},\vec{y}) = −1$ ⟹ $\vec{𝑥}$ and $\vec{y}$ are exactly opposite (inversely proportional)
+- if $𝑆𝐶(\vec{𝑥},\vec{y}) = +1$ ⟹ $\vec{𝑥}$ and $\vec{y}$ are exactly the same (directly proportional) 
+- if $𝑆𝐶(\vec{𝑥},\vec{y}) = 0$ ⟹ $\vec{𝑥}$ and $\vec{y}$ are orthogonal
+
+-> *intermediate values indicate intermediate similarity*
+
 >[!example] Application of k-NN
 >![[Pasted image 20240925160459.png]]
 >![[Pasted image 20240925160515.png]]
@@ -135,6 +147,8 @@ Making all atributes the same scale -> Converting the data to a common range (co
 - **z-score** (zero-mean) [complete]
 - **min-max normalization** [complete]
 - **decimal scaling** [complete]
+
+# Summary
 
 >[!abstract] Summary
 >1. Select the number k of neighbors 

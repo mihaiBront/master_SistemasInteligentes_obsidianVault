@@ -58,12 +58,14 @@ $f_m(x)$ of each internal node is defined in terms of a single dimension (attrib
 
 | If $x_i$ is discrete, there will be a new branch for each option<br>![[Pasted image 20240925163052.png]] | if $x_i$ is continuous, the variable is getting subdivided in subregions<br>![[Pasted image 20240925163110.png]] |
 | -------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
-Branches should be **organized** to be the **most discriminating**. *For instance, if one atribute separates the data into 80%-20%, it will be preferable to be asserted first, it acotates the set better*. This is in order to
+Branches should be **organized** to be the **most discriminating**. *For instance, if one attribute separates the data into 80%-20%, it will be preferable to be asserted first, it discriminates the set better*. This is in order to
 
 >[!example] Purity of a node
 >![[Pasted image 20240925163449.png]]
 
 ## 5.3.1 Impurity measure for leaf nodes
+
+***The bigger the number (either GINI or ENTROPY) the less pure a node is***
 
 - $N_m$ is the number of instances reaching the node m
 - $N_{i,m}$ is the number of instances reaching the node m that belong to the class $w_i$
@@ -104,13 +106,52 @@ $$
 
 ## 5.3.4 General tree induction
 
-```python
-def generateTree(T, alph) -> m:
-	if entropy(T) <= alph:
-		m = classLabelOfMostRepresentativeClass
-	else
-		a = theMostDiscriminatingAttribute(T)
-		m = a
-		for branch in a:
-			tra = 
-```
+General tree induction algorithm:
+![[Pasted image 20241027184942.png]]
+
+Where:
+![[Pasted image 20241027185021.png]]
+
+# 5.4 Pruning (*poda*)
+
+To generate a “pure” tree trying to learn from: 
+- outliers 
+- small sample size (small number of instances) 
+- overlapping
+
+## 5.4.1 Pre-Pruning:
+ 
+*"do not split nodes with few instances while growing the tree"*
+
+1. let m be a node and Nm the number of samples (instances) 
+2. stop splitting the training set 
+	1. if m is pure (“natural end”) or 
+	2. if $N_m < \theta$ (pruning) 
+3. label m with the majority class among the Nm instances
+
+
+## 5.4.2 Post-Pruning:
+
+*after building the tree to its depth, remove unnecessary subtrees*
+
+The idea is to generate 3 independent (and disjoint) sets for training, pruning, and test.
+
+- **training**: generate the complete tree, with all its pure leaves, using the training set 
+- **pruning** (it is part of the learning stage): 
+	- replace each subtree by a leaf node with the label of the majority instances covered by that subtree 
+	- prune the subtree if the “surrogate” leaf node does not worsen its performance with the pruning set 
+- **evaluation**: obtain a performance measure of the final (pruned) tree by classifying the test set
+
+## 5.4.3 Conclusions:
+
+Experiments show that: 
+- post-pruning produces more accurate trees (both classification and regression) than pre-pruning 
+- pre-pruning is much faster than post-pruning
+
+>[!success] Advantages
+>- **Comprehensive**: it is good for interpreting data in a highly visual way 
+>- **Simplicity**: it is one of the simplest algorithms since it has no complex formulas or data structure
+
+>[!fail] Disadvantages
+>- It is **computationally expensive**. At each node, the candidate split must be sorted before determining the best 
+>- It is sometimes **unstable as small variations in data** might lead to the formation of a new tree

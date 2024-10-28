@@ -14,12 +14,20 @@
             "state": {
               "type": "markdown",
               "state": {
+<<<<<<< Updated upstream
                 "file": "SJK004 - COMPUTATIONAL INTELLIGENCE/P1 -  Modelling an intelligent system.md",
+=======
+                "file": "SJK003 - MACHINE LEARNING/P6 - SVM.md",
+>>>>>>> Stashed changes
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
+<<<<<<< Updated upstream
               "title": "P1 -  Modelling an intelligent system"
+=======
+              "title": "P6 - SVM"
+>>>>>>> Stashed changes
             }
           }
         ]
@@ -35,6 +43,7 @@
             "state": {
               "type": "pdf",
               "state": {
+<<<<<<< Updated upstream
                 "file": "_aula_virtual/SJK004/Unit 1_ Modelling an Intelligent agent_4.pdf",
                 "page": 30,
                 "left": -18,
@@ -43,6 +52,16 @@
               },
               "icon": "lucide-file-text",
               "title": "Unit 1_ Modelling an Intelligent agent_4"
+=======
+                "file": "_aula_virtual/SJK003/06-SVM.pdf",
+                "page": 2,
+                "left": -18,
+                "top": 179,
+                "zoom": 0.8416666666666668
+              },
+              "icon": "lucide-file-text",
+              "title": "06-SVM"
+>>>>>>> Stashed changes
             }
           }
         ]
@@ -178,10 +197,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_aula_virtual/SJK003/10-dimensionalityReduction.pdf"
+                "file": "SJK003 - MACHINE LEARNING/P6 - SVM.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 10-dimensionalityReduction"
+              "title": "Outline of P6 - SVM"
             }
           },
           {
@@ -270,35 +289,53 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e842446ad48b3627",
+  "active": "1b2b493308a06bbd",
   "lastOpenFiles": [
+<<<<<<< Updated upstream
     "SJK004 - COMPUTATIONAL INTELLIGENCE/P1 -  Modelling an intelligent system.md",
     "_aula_virtual/SJK004/Unit 1_ Modelling an Intelligent agent_4.pdf",
     "SJK004 - COMPUTATIONAL INTELLIGENCE/P0 - Introducción.md",
     "SJK003 - MACHINE LEARNING/P10 - Dimensionality reduction.md",
     "_aula_virtual/SJK004/Unit 0 - Presentation.pdf",
     "_aula_virtual/SJK003/10-dimensionalityReduction.pdf",
+=======
+    "_aula_virtual/SJK003/06-SVM.pdf",
+    "_aula_virtual/SJK003/05-decisionTrees.pdf",
+    "SJK003 - MACHINE LEARNING/P6 - SVM.md",
+    "SJK003 - MACHINE LEARNING/P5 - Decision Trees.md",
+    "_res/_assets/_images/Pasted image 20241027185021.png",
+    "_res/_assets/_images/Pasted image 20241027184942.png",
+    "SJK003 - MACHINE LEARNING/P4 - Distance-based Classifiers.md",
+    "_aula_virtual/SJK003/04-knn.pdf",
+    "_res/_assets/_images/Pasted image 20241027183158.png",
+    "_aula_virtual/SJK003/EXERCICES/U3-exerciseNN.pdf",
+    "SJK003 - MACHINE LEARNING/P10 - Dimensionality reduction.md",
+    "_aula_virtual/SJK003/02-experimentalDesignI.pdf",
+    "_aula_virtual/SJK003/EXERCICES/U9-solucion-Exercise-Clustering.pdf",
+    "_aula_virtual/SJK003/EXERCICES/solucion-Exercise-Clustering.pdf",
+    "_aula_virtual/SJK003/EXERCICES/solucion-Exercise-Clustering.pdf.crdownload",
+    "_aula_virtual/SJK003/EXERCICES/U9-exercise-Clustering.pdf",
+    "_aula_virtual/SJK003/EXERCICES/U10-exercise-Clustering.pdf",
+    "_aula_virtual/SJK003/EXERCICES/U5-DT.png",
+    "_aula_virtual/SJK003/EXERCICES/DT.png",
+    "_aula_virtual/SJK003/EXERCICES/Exercise Decision Tree-20241027/DT.png",
+>>>>>>> Stashed changes
     "_res/_assets/_images/Pasted image 20241023171220.png",
     "_res/_assets/_images/Pasted image 20241023170923.png",
     "_res/_assets/_images/Pasted image 20241023170851.png",
     "_res/_assets/_images/Pasted image 20241023170656.png",
-    "_res/_assets/_images/Pasted image 20241023163326.png",
-    "_aula_virtual/SJK003/10-dimensionalityReduction.pdf.crdownload",
     "SJK003 - MACHINE LEARNING/P9 - Clustering (non supervised learning).md",
-    "_res/_assets/_images/Pasted image 20241023162728.png",
-    "_aula_virtual/SJK003/09-clustering.pdf",
-    "_res/_assets/_images/Pasted image 20241023153834.png",
-    "_res/_assets/_images/Pasted image 20241023153806.png",
-    "_res/_assets/_images/Pasted image 20241023153653.png",
-    "_res/_assets/_images/Pasted image 20241023153259.png",
     "Untitled.md",
-    "_aula_virtual/SJK006/5. Descriptive Analysis.pdf",
     "SJK002 - COMPUTER VISION/P8 - Interest Points (bag of words).md",
     "SJK006 - BIG DATA ANALYTICS/P7 - Scaling up data analytics.md",
+<<<<<<< Updated upstream
     "_aula_virtual/SJK002/SJK002-U8-InterestPoints-Bow.pdf",
     "_aula_virtual/SJK004/Unit 1_ Modelling an Intelligent agent_3.pdf",
     "_aula_virtual/SJK004/Unit 1_ Modelling an Intelligent agent_2.pdf",
     "_aula_virtual/SJK003/08-multiclassifiers.pdf",
+=======
+    "SJK004 - COMPUTATIONAL INTELLIGENCE/P1 -  Modelling an intelligent system.md",
+>>>>>>> Stashed changes
     "SJK003 - MACHINE LEARNING/P8 - Multi-Classifiers.md",
     "SJK001 - CYBER-PHYSICAL AND ROBOTIC INTELLIGENT SYSTEMS/P4 - Design principles in Artificial Intelligence.md",
     "SJK001 - CYBER-PHYSICAL AND ROBOTIC INTELLIGENT SYSTEMS/_KNBN-Articulos.md",
@@ -306,9 +343,6 @@
     "SJK006 - BIG DATA ANALYTICS/P5 - Descriptive Analysis.md",
     "SJK006 - BIG DATA ANALYTICS/P6 - TimeSeries Analysis.md",
     "SJK003 - MACHINE LEARNING/P7 - Regression.md",
-    "SJK003 - MACHINE LEARNING/P6 - SVM.md",
-    "SJK003 - MACHINE LEARNING/P5 - Decision Trees.md",
-    "SJK003 - MACHINE LEARNING/P4 - Distance-based Classifiers.md",
     "SJK003 - MACHINE LEARNING/P2 - Evaluación de modelos.md",
     "SJK003 - MACHINE LEARNING/P1 - Introduction to machine learning.md",
     "SJK003 - MACHINE LEARNING/P0 - Introducción a la asignatura.md",
