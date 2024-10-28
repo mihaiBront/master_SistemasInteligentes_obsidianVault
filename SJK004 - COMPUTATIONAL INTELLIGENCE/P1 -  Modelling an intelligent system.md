@@ -166,3 +166,86 @@ $$
 
 # 6 Environment discovery (real life)
 
+# 7. Symbolic architectures
+
+
+
+Practical reasoning:
+
+1. **Deliberation**: which states can be achieved. 
+2. **Means/ends reasoning**: how to achieve these states
+
+**Intentions in practical reasoning:**
+
+Intentions in practical reasoning Intentions are problems for agents to solve. 
+*If I got intention i, you will hope that I will put resources to decide how to get i*
+
+Intentions are a “filter” for adopting other intentions 
+*If I got intention i, you will not hope that I will have another active intention j such that i and j will be mutually exclusive* 
+
+Agents try to reach intentions, and if one try fails, agents figure out other ways to get that intentions 
+*If my first try to get i fails, and the environment did not change significantly , I will try to search an alternative plan to get i*
+
+Agents believe that intentions are possible. 
+*It must be believed that there are some way to fulfill these intentions.* 
+
+Agents believe that intentions can be reached by their means. 
+*It is not rational to adopt an intention i if I think i is not possible.* 
+
+Agents can fail under certain circumstances. 
+*It is not rational for an agent to believe that intentions will be arranged without doubt.* 
+
+Agents do not need to calculate lateral consequences that can be obtained when an intention is reached. 
+*If I think that i => j and I’ve got intention i, does not imply that I have also intention j. (intentions are not closed under implication)*
+
+***Intentions are not desires***, intentions imply doing, not just wishing for. 
+
+Example of control loop: (similar to a scan cycle in automation)
+
+```cs
+while true {
+	Sense the environment. 
+	Update the internal model of the environment. 
+	Deliver about what to be the next intention. 
+	Use the medium/ends reasoning to achieve the intention chosen.
+	 Execute the plan. 
+ }
+```
+
+-  Medium-ends reasoning and deliberation processes are not instantaneous. They’ve got a temporal cost. 
+- Let the beginning of deliberation process be in t 0, in t 1 starts the process of medium-ends reasoning and the obtained plan starts to run on t 2. Then, deliberation time is:
+  $t_{deliberation} = t_1 - t_0$ 
+- And medium-ends reasoning time is: 
+  $t_{me} = t_2 - t_1$
+
+
+Control loop version 2:
+
+``` cs
+Set<Belief> beliefs = initialBeliefs(); 
+
+while(true) { 
+	Percept percept = getNextPercept(); 
+	beliefs = brf(beliefs, percept); 
+	Set<Intention> intentions = deliberate(beliefs); 
+	Plan currentPlan = plan(beliefs, intentions); 
+	execute(currentPlan);
+}
+```
+
+Control loop V3:
+
+```c++
+Set<Belief> beliefs = initBeliefBase();
+Set<Intention> intentions = initialIntentions(); 
+
+while(true) { 
+	Percept percept = getNextPercept();
+	beliefs = brf(beliefs, percept); 
+	
+	Set<Desire> desires = options(beliefs, intentions);
+	intentions = filter(beliefs, desires, intentions);
+	Plan currentPlan = plan(beliefs, intentions); 
+	execute(currentPlan); 
+}
+```

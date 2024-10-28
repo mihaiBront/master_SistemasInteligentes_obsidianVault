@@ -6,7 +6,7 @@
       {
         "id": "5705b87e7981a0cd",
         "type": "tabs",
-        "dimension": 38.27077747989276,
+        "dimension": 38.73994638069705,
         "children": [
           {
             "id": "1b2b493308a06bbd",
@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SJK003 - MACHINE LEARNING/P10 - Dimensionality reduction.md",
+                "file": "SJK004 - COMPUTATIONAL INTELLIGENCE/P1 -  Modelling an intelligent system.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "P10 - Dimensionality reduction"
+              "title": "P1 -  Modelling an intelligent system"
             }
           }
         ]
@@ -27,7 +27,7 @@
       {
         "id": "984b8c599025dd06",
         "type": "tabs",
-        "dimension": 61.72922252010724,
+        "dimension": 61.260053619302944,
         "children": [
           {
             "id": "e842446ad48b3627",
@@ -35,14 +35,14 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "_aula_virtual/SJK003/10-dimensionalityReduction.pdf",
-                "page": 24,
-                "left": -25,
-                "top": 92,
-                "zoom": 0.5947916666666667
+                "file": "_aula_virtual/SJK004/Unit 1_ Modelling an Intelligent agent_4.pdf",
+                "page": 30,
+                "left": -18,
+                "top": 390,
+                "zoom": 0.8354166666666668
               },
               "icon": "lucide-file-text",
-              "title": "10-dimensionalityReduction"
+              "title": "Unit 1_ Modelling an Intelligent agent_4"
             }
           }
         ]
@@ -272,7 +272,11 @@
   },
   "active": "e842446ad48b3627",
   "lastOpenFiles": [
+    "SJK004 - COMPUTATIONAL INTELLIGENCE/P1 -  Modelling an intelligent system.md",
+    "_aula_virtual/SJK004/Unit 1_ Modelling an Intelligent agent_4.pdf",
+    "SJK004 - COMPUTATIONAL INTELLIGENCE/P0 - Introducción.md",
     "SJK003 - MACHINE LEARNING/P10 - Dimensionality reduction.md",
+    "_aula_virtual/SJK004/Unit 0 - Presentation.pdf",
     "_aula_virtual/SJK003/10-dimensionalityReduction.pdf",
     "_res/_assets/_images/Pasted image 20241023171220.png",
     "_res/_assets/_images/Pasted image 20241023170923.png",
@@ -293,12 +297,9 @@
     "SJK006 - BIG DATA ANALYTICS/P7 - Scaling up data analytics.md",
     "_aula_virtual/SJK002/SJK002-U8-InterestPoints-Bow.pdf",
     "_aula_virtual/SJK004/Unit 1_ Modelling an Intelligent agent_3.pdf",
-    "SJK004 - COMPUTATIONAL INTELLIGENCE/P1 -  Modelling an intelligent system.md",
     "_aula_virtual/SJK004/Unit 1_ Modelling an Intelligent agent_2.pdf",
     "_aula_virtual/SJK003/08-multiclassifiers.pdf",
-    "_aula_virtual/SJK003/09-clustering.pdf.crdownload",
     "SJK003 - MACHINE LEARNING/P8 - Multi-Classifiers.md",
-    "_aula_virtual/SJK003/02-experimentalDesignI.pdf",
     "SJK001 - CYBER-PHYSICAL AND ROBOTIC INTELLIGENT SYSTEMS/P4 - Design principles in Artificial Intelligence.md",
     "SJK001 - CYBER-PHYSICAL AND ROBOTIC INTELLIGENT SYSTEMS/_KNBN-Articulos.md",
     "SJK006 - BIG DATA ANALYTICS/P1 - Big Data.md",
@@ -316,7 +317,6 @@
     "SJK002 - COMPUTER VISION/P5 - Edge detection.md",
     "SJK002 - COMPUTER VISION/P4 - Image Filtering in Frequency Domain.md",
     "SJK002 - COMPUTER VISION/P3 - Image Filtering in Spatial Domain.md",
-    "SJK002 - COMPUTER VISION/P2.3 - Color.md",
     "Untitled.canvas",
     "MASTER-CANVAS.canvas"
   ]
