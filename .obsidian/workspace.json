@@ -1,67 +1,48 @@
 {
   "main": {
-    "id": "6ca4c40595110496",
+    "id": "ca49a70328ffe2e5",
     "type": "split",
     "children": [
       {
-        "id": "5705b87e7981a0cd",
+        "id": "02b323418aac14d0",
         "type": "tabs",
-        "dimension": 38.73994638069705,
+        "dimension": 24.946695095948826,
         "children": [
           {
-            "id": "1b2b493308a06bbd",
+            "id": "404e7aa3a0e2201c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-<<<<<<< Updated upstream
-                "file": "SJK004 - COMPUTATIONAL INTELLIGENCE/P1 -  Modelling an intelligent system.md",
-=======
                 "file": "SJK003 - MACHINE LEARNING/P6 - SVM.md",
->>>>>>> Stashed changes
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-<<<<<<< Updated upstream
-              "title": "P1 -  Modelling an intelligent system"
-=======
               "title": "P6 - SVM"
->>>>>>> Stashed changes
             }
           }
         ]
       },
       {
-        "id": "984b8c599025dd06",
+        "id": "37cfdbf833f25b32",
         "type": "tabs",
-        "dimension": 61.260053619302944,
+        "dimension": 75.05330490405117,
         "children": [
           {
-            "id": "e842446ad48b3627",
+            "id": "14803b77dfeb6dc5",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-<<<<<<< Updated upstream
-                "file": "_aula_virtual/SJK004/Unit 1_ Modelling an Intelligent agent_4.pdf",
-                "page": 30,
-                "left": -18,
-                "top": 390,
-                "zoom": 0.8354166666666668
-              },
-              "icon": "lucide-file-text",
-              "title": "Unit 1_ Modelling an Intelligent agent_4"
-=======
                 "file": "_aula_virtual/SJK003/06-SVM.pdf",
-                "page": 2,
-                "left": -18,
-                "top": 179,
-                "zoom": 0.8416666666666668
+                "page": 5,
+                "left": -13,
+                "top": 13,
+                "zoom": 1.1614583333333335
               },
               "icon": "lucide-file-text",
               "title": "06-SVM"
->>>>>>> Stashed changes
             }
           }
         ]
@@ -70,15 +51,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "d85adb39506bb1b9",
+    "id": "8c239b0553cbe237",
     "type": "split",
     "children": [
       {
-        "id": "b279fe2b2e8faccd",
+        "id": "77bdf893df04a94b",
         "type": "tabs",
         "children": [
           {
-            "id": "fa1786bf7cd1275b",
+            "id": "9232e5cc106621d2",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -90,12 +71,12 @@
             }
           },
           {
-            "id": "ddfddac4e1fc177e",
+            "id": "0762eba6a639e219",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:SJK006-BigDataAnalytics",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -107,7 +88,7 @@
             }
           },
           {
-            "id": "235fb7341223d0ab",
+            "id": "d4d497d0a038833d",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -120,19 +101,52 @@
       }
     ],
     "direction": "horizontal",
-    "width": 306.5,
+    "width": 300,
     "collapsed": true
   },
   "right": {
-    "id": "35efe60a2e491571",
+    "id": "9c3ff308733239f5",
     "type": "split",
     "children": [
       {
-        "id": "3692cb68f56772da",
+        "id": "2e0629f982ab33e2",
         "type": "tabs",
         "children": [
           {
-            "id": "41c1a1a9a97fc909",
+            "id": "6e964948ac564ddd",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "_aula_virtual/SJK003/05-decisionTrees.pdf",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 05-decisionTrees"
+            }
+          },
+          {
+            "id": "d640eb1b2dfb052f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "_aula_virtual/SJK003/05-decisionTrees.pdf",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 05-decisionTrees"
+            }
+          },
+          {
+            "id": "b9950b9bbcb95a5c",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -145,40 +159,7 @@
             }
           },
           {
-            "id": "7dd71c3a7337bf86",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "SJK006 - BIG DATA ANALYTICS/P7 - Scaling up data analytics.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "Backlinks for P7 - Scaling up data analytics"
-            }
-          },
-          {
-            "id": "27fbb59dce262ef8",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "SJK006 - BIG DATA ANALYTICS/P7 - Scaling up data analytics.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "Outgoing links from P7 - Scaling up data analytics"
-            }
-          },
-          {
-            "id": "dae63edc07b4ab9d",
+            "id": "288c155539f43ba3",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -192,29 +173,19 @@
             }
           },
           {
-            "id": "d6537ad02a1965ed",
+            "id": "1910be31f67f90f0",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "SJK003 - MACHINE LEARNING/P6 - SVM.md"
+                "file": "_aula_virtual/SJK003/05-decisionTrees.pdf"
               },
               "icon": "lucide-list",
-              "title": "Outline of P6 - SVM"
+              "title": "Outline of 05-decisionTrees"
             }
           },
           {
-            "id": "99c03de245ad14ad",
-            "type": "leaf",
-            "state": {
-              "type": "custom-frames-calendar",
-              "state": {},
-              "icon": "lucide-calendar",
-              "title": "Calendar"
-            }
-          },
-          {
-            "id": "770cb706306a9ebd",
+            "id": "0b948a7b0e2bf568",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -224,7 +195,7 @@
             }
           },
           {
-            "id": "f2e9a9d6db54908d",
+            "id": "1cb46402c6494c9e",
             "type": "leaf",
             "state": {
               "type": "ch.der-tobi.obsidian-simple-mention",
@@ -234,27 +205,7 @@
             }
           },
           {
-            "id": "6e8fa53bd9ef9a3a",
-            "type": "leaf",
-            "state": {
-              "type": "mermaid-toolbar-view",
-              "state": {},
-              "icon": "trident-custom",
-              "title": "Mermaid Toolbar"
-            }
-          },
-          {
-            "id": "c703bebd2aba573d",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {},
-              "icon": "spreadsheet",
-              "title": "Advanced Tables"
-            }
-          },
-          {
-            "id": "803c05ff84e3d0a2",
+            "id": "0619f7610512419b",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -264,94 +215,41 @@
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
-    "width": 456.5
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
-      "pdf-plus:PDF++: Toggle auto-copy": false,
-      "pdf-plus:PDF++: Toggle auto-focus": false,
-      "pdf-plus:PDF++: Toggle auto-paste": false,
-      "daily-notes:Open today's daily note": false,
-      "graph:Open graph view": false,
-      "templates:Insert template": false,
-      "canvas:Create new canvas": false,
       "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "obsidian-kanban:Create new board": false,
       "obsidian-custom-frames:Open Calendar": false,
       "obsidian-advanced-slides:Show Slide Preview": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false,
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1b2b493308a06bbd",
+  "active": "14803b77dfeb6dc5",
   "lastOpenFiles": [
-<<<<<<< Updated upstream
-    "SJK004 - COMPUTATIONAL INTELLIGENCE/P1 -  Modelling an intelligent system.md",
-    "_aula_virtual/SJK004/Unit 1_ Modelling an Intelligent agent_4.pdf",
-    "SJK004 - COMPUTATIONAL INTELLIGENCE/P0 - Introducción.md",
-    "SJK003 - MACHINE LEARNING/P10 - Dimensionality reduction.md",
-    "_aula_virtual/SJK004/Unit 0 - Presentation.pdf",
-    "_aula_virtual/SJK003/10-dimensionalityReduction.pdf",
-=======
-    "_aula_virtual/SJK003/06-SVM.pdf",
+    "_aula_virtual/SJK003/comparacionmodelos~2C16B.tmp",
+    "_aula_virtual/SJK003/~$comparacionmodelos.xlsx",
     "_aula_virtual/SJK003/05-decisionTrees.pdf",
     "SJK003 - MACHINE LEARNING/P6 - SVM.md",
+    "_aula_virtual/SJK003/06-SVM.pdf",
     "SJK003 - MACHINE LEARNING/P5 - Decision Trees.md",
-    "_res/_assets/_images/Pasted image 20241027185021.png",
-    "_res/_assets/_images/Pasted image 20241027184942.png",
-    "SJK003 - MACHINE LEARNING/P4 - Distance-based Classifiers.md",
+    "_aula_virtual/SJK003/comparacionmodelos.xlsx",
     "_aula_virtual/SJK003/04-knn.pdf",
-    "_res/_assets/_images/Pasted image 20241027183158.png",
-    "_aula_virtual/SJK003/EXERCICES/U3-exerciseNN.pdf",
-    "SJK003 - MACHINE LEARNING/P10 - Dimensionality reduction.md",
-    "_aula_virtual/SJK003/02-experimentalDesignI.pdf",
-    "_aula_virtual/SJK003/EXERCICES/U9-solucion-Exercise-Clustering.pdf",
-    "_aula_virtual/SJK003/EXERCICES/solucion-Exercise-Clustering.pdf",
-    "_aula_virtual/SJK003/EXERCICES/solucion-Exercise-Clustering.pdf.crdownload",
-    "_aula_virtual/SJK003/EXERCICES/U9-exercise-Clustering.pdf",
-    "_aula_virtual/SJK003/EXERCICES/U10-exercise-Clustering.pdf",
-    "_aula_virtual/SJK003/EXERCICES/U5-DT.png",
-    "_aula_virtual/SJK003/EXERCICES/DT.png",
-    "_aula_virtual/SJK003/EXERCICES/Exercise Decision Tree-20241027/DT.png",
->>>>>>> Stashed changes
-    "_res/_assets/_images/Pasted image 20241023171220.png",
-    "_res/_assets/_images/Pasted image 20241023170923.png",
-    "_res/_assets/_images/Pasted image 20241023170851.png",
-    "_res/_assets/_images/Pasted image 20241023170656.png",
-    "SJK003 - MACHINE LEARNING/P9 - Clustering (non supervised learning).md",
-    "Untitled.md",
-    "SJK002 - COMPUTER VISION/P8 - Interest Points (bag of words).md",
-    "SJK006 - BIG DATA ANALYTICS/P7 - Scaling up data analytics.md",
-<<<<<<< Updated upstream
-    "_aula_virtual/SJK002/SJK002-U8-InterestPoints-Bow.pdf",
-    "_aula_virtual/SJK004/Unit 1_ Modelling an Intelligent agent_3.pdf",
-    "_aula_virtual/SJK004/Unit 1_ Modelling an Intelligent agent_2.pdf",
-    "_aula_virtual/SJK003/08-multiclassifiers.pdf",
-=======
-    "SJK004 - COMPUTATIONAL INTELLIGENCE/P1 -  Modelling an intelligent system.md",
->>>>>>> Stashed changes
-    "SJK003 - MACHINE LEARNING/P8 - Multi-Classifiers.md",
-    "SJK001 - CYBER-PHYSICAL AND ROBOTIC INTELLIGENT SYSTEMS/P4 - Design principles in Artificial Intelligence.md",
-    "SJK001 - CYBER-PHYSICAL AND ROBOTIC INTELLIGENT SYSTEMS/_KNBN-Articulos.md",
-    "SJK006 - BIG DATA ANALYTICS/P1 - Big Data.md",
-    "SJK006 - BIG DATA ANALYTICS/P5 - Descriptive Analysis.md",
-    "SJK006 - BIG DATA ANALYTICS/P6 - TimeSeries Analysis.md",
-    "SJK003 - MACHINE LEARNING/P7 - Regression.md",
-    "SJK003 - MACHINE LEARNING/P2 - Evaluación de modelos.md",
-    "SJK003 - MACHINE LEARNING/P1 - Introduction to machine learning.md",
-    "SJK003 - MACHINE LEARNING/P0 - Introducción a la asignatura.md",
-    "SJK002 - COMPUTER VISION/P7 - Image segmentation.md",
-    "SJK002 - COMPUTER VISION/P6 - Contours.md",
-    "SJK002 - COMPUTER VISION/P5 - Edge detection.md",
-    "SJK002 - COMPUTER VISION/P4 - Image Filtering in Frequency Domain.md",
-    "SJK002 - COMPUTER VISION/P3 - Image Filtering in Spatial Domain.md",
-    "Untitled.canvas",
-    "MASTER-CANVAS.canvas"
+    "SJK003 - MACHINE LEARNING/X0 - Comparation between different classifiers or regressors.md"
   ]
 }
