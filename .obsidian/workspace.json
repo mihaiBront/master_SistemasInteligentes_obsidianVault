@@ -1,80 +1,65 @@
 {
   "main": {
-    "id": "ca49a70328ffe2e5",
+    "id": "f59bcaf8e8aa36f1",
     "type": "split",
     "children": [
       {
-        "id": "02b323418aac14d0",
+        "id": "16de23f7b14a9593",
         "type": "tabs",
-        "dimension": 24.946695095948826,
+        "dimension": 33.44504021447721,
         "children": [
           {
-            "id": "404e7aa3a0e2201c",
+            "id": "4fc82e8a6eae512f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SJK003 - MACHINE LEARNING/P6 - SVM.md",
+                "file": "SJK006 - BIG DATA ANALYTICS/P8 - Embeddings and LLMs.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "P6 - SVM"
+              "title": "P8 - Embeddings and LLMs"
             }
           }
         ]
       },
       {
-        "id": "37cfdbf833f25b32",
+        "id": "39a40891a66cbe4c",
         "type": "tabs",
-        "dimension": 75.05330490405117,
+        "dimension": 66.5549597855228,
         "children": [
           {
-            "id": "14803b77dfeb6dc5",
+            "id": "6643a0325388787b",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "_aula_virtual/SJK003/06-SVM.pdf",
-                "page": 5,
-                "left": -13,
-                "top": 13,
-                "zoom": 1.1614583333333335
+                "file": "_aula_virtual/SJK006/8. Embeddings and Large Language Models.pdf",
+                "page": 26,
+                "left": -23,
+                "top": 9,
+                "zoom": 0.6416666666666667
               },
               "icon": "lucide-file-text",
-              "title": "06-SVM"
-            }
-          },
-          {
-            "id": "25d957acd2459eab",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
+              "title": "8. Embeddings and Large Language Models"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "8c239b0553cbe237",
+    "id": "587f27548711457d",
     "type": "split",
     "children": [
       {
-        "id": "77bdf893df04a94b",
+        "id": "292e0c7a5151f006",
         "type": "tabs",
         "children": [
           {
-            "id": "9232e5cc106621d2",
+            "id": "79a83b51297b1abb",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -86,12 +71,12 @@
             }
           },
           {
-            "id": "0762eba6a639e219",
+            "id": "dd267d7faab7bd0b",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:SJK001-Robotics",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -103,7 +88,7 @@
             }
           },
           {
-            "id": "d4d497d0a038833d",
+            "id": "d6854cf426163949",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -120,20 +105,20 @@
     "collapsed": true
   },
   "right": {
-    "id": "9c3ff308733239f5",
+    "id": "137d41a31fd0422c",
     "type": "split",
     "children": [
       {
-        "id": "2e0629f982ab33e2",
+        "id": "f6de0941fe5953e0",
         "type": "tabs",
         "children": [
           {
-            "id": "6e964948ac564ddd",
+            "id": "951c90abeaa4eab7",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_aula_virtual/SJK003/05-decisionTrees.pdf",
+                "file": "_aula_virtual/SJK006/7. Scaling up Data Analytics.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,25 +128,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 05-decisionTrees"
+              "title": "Backlinks for 7. Scaling up Data Analytics"
             }
           },
           {
-            "id": "d640eb1b2dfb052f",
+            "id": "bb3b57b45bef068a",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_aula_virtual/SJK003/05-decisionTrees.pdf",
+                "file": "_aula_virtual/SJK006/7. Scaling up Data Analytics.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 05-decisionTrees"
+              "title": "Outgoing links from 7. Scaling up Data Analytics"
             }
           },
           {
-            "id": "b9950b9bbcb95a5c",
+            "id": "c69f8e025ac36285",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -174,7 +159,7 @@
             }
           },
           {
-            "id": "288c155539f43ba3",
+            "id": "cb6fed5de43d8fdc",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -188,19 +173,19 @@
             }
           },
           {
-            "id": "1910be31f67f90f0",
+            "id": "795dc0a379e71117",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "_aula_virtual/SJK003/05-decisionTrees.pdf"
+                "file": "_aula_virtual/SJK006/7. Scaling up Data Analytics.pdf"
               },
               "icon": "lucide-list",
-              "title": "Outline of 05-decisionTrees"
+              "title": "Outline of 7. Scaling up Data Analytics"
             }
           },
           {
-            "id": "0b948a7b0e2bf568",
+            "id": "f5bc3adcf3b59125",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -210,7 +195,7 @@
             }
           },
           {
-            "id": "1cb46402c6494c9e",
+            "id": "490396c55f166bcc",
             "type": "leaf",
             "state": {
               "type": "ch.der-tobi.obsidian-simple-mention",
@@ -220,7 +205,7 @@
             }
           },
           {
-            "id": "0619f7610512419b",
+            "id": "a8ceaa9eae2b5dce",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -228,13 +213,23 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "f3986d3d7335582b",
+            "type": "leaf",
+            "state": {
+              "type": "custom-frames-calendar",
+              "state": {},
+              "icon": "lucide-calendar",
+              "title": "Calendar"
+            }
           }
         ],
         "currentTab": 7
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 464.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -255,32 +250,41 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "25d957acd2459eab",
+  "active": "6643a0325388787b",
   "lastOpenFiles": [
-    "_aula_virtual/SJK003/06-SVM.pdf",
-    "conflict-files-obsidian-git.md",
-    "json_API.md",
-    "json_API.docx",
-    "_res/_assets/_images/Pasted image 20241028172259.png",
-    "_res/_assets/_images/Pasted image 20241028172158.png",
-    "_res/_assets/_images/Pasted image 20241028171950.png",
-    "_res/_assets/_images/Pasted image 20241028171753.png",
-    "_res/_assets/_images/Pasted image 20241028171540.png",
-    "_res/_assets/_images/Pasted image 20241028171320.png",
-    "_res/_assets/_images/Pasted image 20241028163436.png",
-    "_res/_assets/_images/Pasted image 20241028163417.png",
-    "_res/_assets/_images/Pasted image 20241028163249.png",
-    "_res/_assets/_images/Pasted image 20241028163118.png",
-    "_aula_virtual/SJK006/7. Scaling up Data Analytics.pdf",
+    "SJK006 - BIG DATA ANALYTICS/P8 - Embeddings and LLMs.md",
+    "_res/_assets/_images/Pasted image 20241106190532.png",
+    "_aula_virtual/SJK006/8. Embeddings and Large Language Models.pdf",
+    "_res/_assets/_images/Pasted image 20241106185133.png",
+    "_res/_assets/_images/Pasted image 20241106184046.png",
+    "_res/_assets/_images/Pasted image 20241106183715.png",
+    "_res/_assets/_images/Pasted image 20241106183711.png",
+    "_res/_assets/_images/Pasted image 20241106183705.png",
+    "_res/_assets/_images/Pasted image 20241106183659.png",
+    "_res/_assets/_images/Pasted image 20241106181649.png",
+    "SJK006 - BIG DATA ANALYTICS/P7 - Scaling up data analytics.md",
+    "SJK003 - MACHINE LEARNING/P12 - Artificial Neural Networks.md",
+    "_res/_assets/_images/Pasted image 20241106181416.png",
+    "_res/_assets/_images/Pasted image 20241106181335.png",
+    "_aula_virtual/SJK003/12-artificialNeuralNetwork.pdf",
+    "_aula_virtual/SJK006/8. Embeddings and Large Language Models.pdf.crdownload",
+    "().md",
+    "_aula_virtual/SJK003/ScientificArticles/lipReading.pdf",
+    "_aula_virtual/SJK003/ScientificArticles/lipReading.pdf.crdownload",
+    "_aula_virtual/SJK003/ScientificArticles",
+    "_aula_virtual/SJK003/New folder",
+    "SJK003 - MACHINE LEARNING/P4 - Distance-based Classifiers.md",
+    "SJK001 - CYBER-PHYSICAL AND ROBOTIC INTELLIGENT SYSTEMS/P5 - Classical vs Reactive Robots.md",
+    "_aula_virtual/SJK003/11-numerosityReduction.pdf",
+    "_aula_virtual/SJK003/11-numerosityReduction.pdf.crdownload",
+    "_aula_virtual/SJK003/12-artificialNeuralNetwork.pdf.crdownload",
+    "SJK001 - CYBER-PHYSICAL AND ROBOTIC INTELLIGENT SYSTEMS/P1 - Introduction to robotic intelligence. Classical AI & The Hierarchical Paradigm.md",
+    "_res/_dailyNotes/2024-11-05.md",
+    "SJK003 - MACHINE LEARNING/X0 - Comparation between different classifiers or regressors.md",
+    "SJK001 - CYBER-PHYSICAL AND ROBOTIC INTELLIGENT SYSTEMS/P2 - Introduction to Robotic Intelligence.md",
+    "SJK001 - CYBER-PHYSICAL AND ROBOTIC INTELLIGENT SYSTEMS/P3 - Robotics and neural networks.md",
+    "SJK001 - CYBER-PHYSICAL AND ROBOTIC INTELLIGENT SYSTEMS/P4 - Design principles in Artificial Intelligence.md",
     "SJK002 - COMPUTER VISION/P9(2) - Active 3D vision.md",
-    "SJK002 - COMPUTER VISION/P9(1) - Stereo vision.md",
-    "_aula_virtual/SJK003/comparacionmodelos~2C16B.tmp",
-    "_aula_virtual/SJK003/~$comparacionmodelos.xlsx",
-    "_aula_virtual/SJK003/05-decisionTrees.pdf",
-    "SJK003 - MACHINE LEARNING/P6 - SVM.md",
-    "SJK003 - MACHINE LEARNING/P5 - Decision Trees.md",
-    "_aula_virtual/SJK003/comparacionmodelos.xlsx",
-    "_aula_virtual/SJK003/04-knn.pdf",
-    "SJK003 - MACHINE LEARNING/X0 - Comparation between different classifiers or regressors.md"
+    "SJK002 - COMPUTER VISION/P9(1) - Stereo vision.md"
   ]
 }
