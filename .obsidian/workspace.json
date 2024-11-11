@@ -4,21 +4,45 @@
     "type": "split",
     "children": [
       {
-        "id": "16de23f7b14a9593",
+        "id": "9cb40ce5b15b4e1e",
         "type": "tabs",
+        "dimension": 35.656836461126005,
         "children": [
           {
-            "id": "4fc82e8a6eae512f",
+            "id": "762f25b8972c8d7c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_res/_dailyNotes/2024-11-14.md",
+                "file": "SJK002 - COMPUTER VISION/P10 - Motion estimation; Optical flow and image registration.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2024-11-14"
+              "title": "P10 - Motion estimation; Optical flow and image registration"
+            }
+          }
+        ]
+      },
+      {
+        "id": "b518420e57c6986b",
+        "type": "tabs",
+        "dimension": 64.343163538874,
+        "children": [
+          {
+            "id": "9613fa0604be61ad",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "_aula_virtual/SJK002/SJK002-U10b MotionEstimationOpticFlow.pdf",
+                "page": 10,
+                "left": 34,
+                "top": -28,
+                "zoom": 0.5282066508313539
+              },
+              "icon": "lucide-file-text",
+              "title": "SJK002-U10b MotionEstimationOpticFlow"
             }
           }
         ]
@@ -77,7 +101,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "137d41a31fd0422c",
@@ -225,22 +250,28 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4fc82e8a6eae512f",
+  "active": "9613fa0604be61ad",
   "lastOpenFiles": [
+    "SJK002 - COMPUTER VISION/P10 - Motion estimation; Optical flow and image registration.md",
+    "_aula_virtual/SJK002/SJK002-U10b MotionEstimationOpticFlow.pdf",
+    "_aula_virtual/SJK002/SJK002-U10 MotionEstimationOpticFlow.pdf",
+    "_aula_virtual/SJK002/SJK002-U10b MotionEstimationOpticFlow.pdf.crdownload",
+    "_aula_virtual/SJK002/SJK002-U9-2-3D-Vision-ToF.pdf",
+    "SJK002 - COMPUTER VISION/P9(2) - Active 3D vision.md",
+    "_res/_assets/_images/Pasted image 20241111161135.png",
+    "_res/_assets/_images/Pasted image 20241111161106.png",
+    "_res/_assets/_images/Pasted image 20241111160011.png",
+    "_res/_assets/_images/Pasted image 20241111155637.png",
+    "_res/_assets/_images/Pasted image 20241111155302.png",
+    "_res/_assets/_images/Pasted image 20241111154841.png",
+    "_res/_assets/_images/Pasted image 20241111154829.png",
+    "_res/_assets/_images/Pasted image 20241111154818.png",
+    "_res/_assets/_images/Pasted image 20241111153854.png",
+    "_res/_assets/_images/Pasted image 20241111153031.png",
     "SJK004 - COMPUTATIONAL INTELLIGENCE/P2 - Modelling multiagent interaction using game theory.md",
     "_res/_dailyNotes/2024-11-14.md",
     "_res/_dailyNotes/2024-11-07.md",
     "_aula_virtual/SJK004/Unit2_Interaction.pdf",
-    "_res/_assets/_images/Pasted image 20241107170444.png",
-    "_res/_assets/_images/Pasted image 20241107170341.png",
-    "_res/_assets/_images/Pasted image 20241107165328.png",
-    "_res/_assets/_images/Pasted image 20241107164610.png",
-    "_res/_assets/_images/Pasted image 20241107163558.png",
-    "_res/_assets/_images/Pasted image 20241107163300.png",
-    "_res/_assets/_images/Pasted image 20241107163224.png",
-    "_res/_assets/_images/Pasted image 20241107162756.png",
-    "_res/_assets/_images/Pasted image 20241107162611.png",
-    "_res/_assets/_images/Pasted image 20241107162530.png",
     "_aula_virtual/SJK004/Unit2_Interaction.pdf.crdownload",
     "SJK006 - BIG DATA ANALYTICS/P8 - Embeddings and LLMs.md",
     "_aula_virtual/SJK006/8. Embeddings and Large Language Models.pdf",
@@ -250,19 +281,14 @@
     "_aula_virtual/SJK006/8. Embeddings and Large Language Models.pdf.crdownload",
     "().md",
     "_aula_virtual/SJK003/ScientificArticles/lipReading.pdf",
-    "_aula_virtual/SJK003/ScientificArticles/lipReading.pdf.crdownload",
-    "_aula_virtual/SJK003/ScientificArticles",
-    "_aula_virtual/SJK003/New folder",
     "SJK003 - MACHINE LEARNING/P4 - Distance-based Classifiers.md",
     "SJK001 - CYBER-PHYSICAL AND ROBOTIC INTELLIGENT SYSTEMS/P5 - Classical vs Reactive Robots.md",
-    "_aula_virtual/SJK003/11-numerosityReduction.pdf",
     "SJK001 - CYBER-PHYSICAL AND ROBOTIC INTELLIGENT SYSTEMS/P1 - Introduction to robotic intelligence. Classical AI & The Hierarchical Paradigm.md",
     "_res/_dailyNotes/2024-11-05.md",
     "SJK003 - MACHINE LEARNING/X0 - Comparation between different classifiers or regressors.md",
     "SJK001 - CYBER-PHYSICAL AND ROBOTIC INTELLIGENT SYSTEMS/P2 - Introduction to Robotic Intelligence.md",
     "SJK001 - CYBER-PHYSICAL AND ROBOTIC INTELLIGENT SYSTEMS/P3 - Robotics and neural networks.md",
     "SJK001 - CYBER-PHYSICAL AND ROBOTIC INTELLIGENT SYSTEMS/P4 - Design principles in Artificial Intelligence.md",
-    "SJK002 - COMPUTER VISION/P9(2) - Active 3D vision.md",
     "SJK002 - COMPUTER VISION/P9(1) - Stereo vision.md"
   ]
 }
