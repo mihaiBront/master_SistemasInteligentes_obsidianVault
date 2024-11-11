@@ -6,7 +6,7 @@
       {
         "id": "9cb40ce5b15b4e1e",
         "type": "tabs",
-        "dimension": 35.656836461126005,
+        "dimension": 33.78016085790885,
         "children": [
           {
             "id": "762f25b8972c8d7c",
@@ -14,35 +14,35 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SJK002 - COMPUTER VISION/P10 - Motion estimation; Optical flow and image registration.md",
+                "file": "SJK006 - BIG DATA ANALYTICS/P9 - Data Streaming.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "P10 - Motion estimation; Optical flow and image registration"
+              "title": "P9 - Data Streaming"
             }
           }
         ]
       },
       {
-        "id": "b518420e57c6986b",
+        "id": "02e3680874dac9dd",
         "type": "tabs",
-        "dimension": 64.343163538874,
+        "dimension": 66.21983914209115,
         "children": [
           {
-            "id": "9613fa0604be61ad",
+            "id": "ee6d8cc28918cf67",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "_aula_virtual/SJK002/SJK002-U10b MotionEstimationOpticFlow.pdf",
-                "page": 10,
-                "left": 34,
-                "top": -28,
-                "zoom": 0.5282066508313539
+                "file": "_aula_virtual/SJK006/9. Data Streaming.pdf",
+                "page": 14,
+                "left": -24,
+                "top": 8,
+                "zoom": 0.6375000000000001
               },
               "icon": "lucide-file-text",
-              "title": "SJK002-U10b MotionEstimationOpticFlow"
+              "title": "9. Data Streaming"
             }
           }
         ]
@@ -250,8 +250,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9613fa0604be61ad",
+  "active": "ee6d8cc28918cf67",
   "lastOpenFiles": [
+    "SJK006 - BIG DATA ANALYTICS/P9 - Data Streaming.md",
+    "_aula_virtual/SJK006/9. Data Streaming.pdf",
+    "_aula_virtual/SJK006/9a. Spark DataFrames.pdf",
+    "_aula_virtual/SJK006/9a. Spark DataFrames.pdf.crdownload",
+    "_res/_assets/_images/Pasted image 20241111183142.png",
+    "_res/_assets/_images/Pasted image 20241111182702.png",
+    "().md",
     "SJK002 - COMPUTER VISION/P10 - Motion estimation; Optical flow and image registration.md",
     "_aula_virtual/SJK002/SJK002-U10b MotionEstimationOpticFlow.pdf",
     "_aula_virtual/SJK002/SJK002-U10 MotionEstimationOpticFlow.pdf",
@@ -266,8 +273,6 @@
     "_res/_assets/_images/Pasted image 20241111154841.png",
     "_res/_assets/_images/Pasted image 20241111154829.png",
     "_res/_assets/_images/Pasted image 20241111154818.png",
-    "_res/_assets/_images/Pasted image 20241111153854.png",
-    "_res/_assets/_images/Pasted image 20241111153031.png",
     "SJK004 - COMPUTATIONAL INTELLIGENCE/P2 - Modelling multiagent interaction using game theory.md",
     "_res/_dailyNotes/2024-11-14.md",
     "_res/_dailyNotes/2024-11-07.md",
@@ -277,10 +282,6 @@
     "_aula_virtual/SJK006/8. Embeddings and Large Language Models.pdf",
     "SJK006 - BIG DATA ANALYTICS/P7 - Scaling up data analytics.md",
     "SJK003 - MACHINE LEARNING/P12 - Artificial Neural Networks.md",
-    "_aula_virtual/SJK003/12-artificialNeuralNetwork.pdf",
-    "_aula_virtual/SJK006/8. Embeddings and Large Language Models.pdf.crdownload",
-    "().md",
-    "_aula_virtual/SJK003/ScientificArticles/lipReading.pdf",
     "SJK003 - MACHINE LEARNING/P4 - Distance-based Classifiers.md",
     "SJK001 - CYBER-PHYSICAL AND ROBOTIC INTELLIGENT SYSTEMS/P5 - Classical vs Reactive Robots.md",
     "SJK001 - CYBER-PHYSICAL AND ROBOTIC INTELLIGENT SYSTEMS/P1 - Introduction to robotic intelligence. Classical AI & The Hierarchical Paradigm.md",
