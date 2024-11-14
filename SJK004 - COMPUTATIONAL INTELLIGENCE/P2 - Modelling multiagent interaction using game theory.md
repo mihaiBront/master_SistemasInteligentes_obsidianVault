@@ -243,3 +243,67 @@ If the preferences of the agents are totally opposite, then we have strictly **c
 **Zero-Sum Encounters** are those in which the sum of the utilities is zero: $ui(ω) + uj(ω) = 0$ for all $ω ∈ Ω$. Therefore it implies a strictly competitive situation ($J_1$ wins with pairs, $J_2$ wins with odds)
 
 ![[Pasted image 20241107170341.png]]![[Pasted image 20241107170444.png]]
+
+## The prisoner's dilemma
+
+- Two people are accused of a crime and are locked in individual cells with no possibility of communication between them. 
+- The following deal is offered: 
+	- If you confess and the other does not confess, the confessor will go free (for helping) and the other will be imprisoned for three years 
+	- If both confess, they will each be sentenced to two years. 
+	- Both defendants know that if neither confesses they will be jailed for one year (for minor crimes)
+
+The matrix is:
+![[Pasted image 20241114152212.png]]
+
+Which creates a paradox, the prisoners will never chose defect cause they don't trust each other.
+
+Individual rational action is defective This guarantees a payoff no worse than 2, while cooperating guarantees a payoff of at most 1.
+
+Then default is the best answer for all possible strategies: both agents default, and they get a payoff = 2 
+
+But intuition says that this is not the best scenario: If they both cooperated they would get a payoff = 3!
+
+This apparent paradox is the so-called fundamental problem of multi-agent interactions. 
+
+It seems to imply that cooperation will not occur in societies of self-interested agents.
+
+>[!example] Some real examples:
+> - Reduction of nuclear arsenals (“and if I agree, but I don't destroy them...”) 
+> - Uncontrolled payment systems — public transport
+
+The prisoner's dilemma is very common. Why then do we cooperate?
+
+We could think that in the previous analysis: The notion of rational action in game theory is wrong The dilemma has some error in its statement that I can't find...
+
+**Arguments to cooperate:**
+- We are not so Machiavellian! 
+- Blind trust in the other prisoner (the other prisoner is my brother, …)
+- And if I find him when he gets out from prison...and he beats my ass?
+
+## Iterated prisoner's dilema
+
+Let's try to play the game more than once
+
+It is no longer so clear that snitching is good, in fact: **The rational choice in the infinitely iterated prisoner's dilemma is to cooperate!**
+
+**Induction from the end**: But…what if we both know that we will play the game exactly n times? In round n - 1, you have the incentive to default, to get more in the last round… This makes round n – 2 the last “real” one, and so defect would be interesting as well. ....
+
+laying the prisoner's dilemma with a known, finite, fixed, predetermined number of rounds again shows that "Don't Cooperate" (default) is the best strategy.
+
+### ***Axelrod*'s Tournament**:
+
+Suppose we play the prisoner's dilemma repeatedly with several opponents..
+
+What strategy should we choose, to maximize the total profit?
+
+*Axelrod* (1984) investigated this problem through a computerized tournament of programs that played the prisoner's dilemma
+
+Some strategies seen int the experiment:
+![[Pasted image 20241114153225.png]]
+
+Recipes for success:
+- Axelrod suggests the following rules to be successful in your tournament: 
+- Do not be jealous: Don't play like it's a zero sum game 
+- Be polite: Start cooperating, and return cooperation
+- Measured revenge: Always punish “non-cooperation” immediately, but do not over-punish 
+- Be quick to return the good: Cooperate with whoever cooperates with you immediately
