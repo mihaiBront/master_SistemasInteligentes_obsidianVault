@@ -36,10 +36,10 @@
               "type": "pdf",
               "state": {
                 "file": "_aula_virtual/SJK004/Unit3_AgendCommunications.pdf",
-                "page": 6,
-                "left": -37,
-                "top": 81,
-                "zoom": 0.42291666666666666
+                "page": 21,
+                "left": -4,
+                "top": 526,
+                "zoom": 1.04
               },
               "icon": "lucide-file-text",
               "title": "Unit3_AgendCommunications"
@@ -101,7 +101,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "137d41a31fd0422c",
@@ -249,11 +250,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ee6d8cc28918cf67",
+  "active": "bb17a35dafb24921",
   "lastOpenFiles": [
-    "SJK004 - COMPUTATIONAL INTELLIGENCE/P3 - Agent Communications.md",
-    "_res/_assets/_images/Pasted image 20241114161042.png",
+    "_res/_assets/_images/Pasted image 20241114162351.png",
+    "_res/_assets/_images/Pasted image 20241114162333.png",
+    "_res/_assets/_images/Pasted image 20241114161832.png",
+    "_res/_assets/_images/Pasted image 20241114161657.png",
     "_aula_virtual/SJK004/Unit3_AgendCommunications.pdf",
+    "SJK004 - COMPUTATIONAL INTELLIGENCE/P3 - Agent Communications.md",
+    "_res/_assets/_images/Pasted image 20241114161422.png",
+    "_res/_assets/_images/Pasted image 20241114161328.png",
+    "_res/_assets/_images/Pasted image 20241114161318.png",
+    "_res/_assets/_images/Pasted image 20241114161042.png",
     "SJK004 - COMPUTATIONAL INTELLIGENCE/P2 - Modelling multiagent interaction using game theory.md",
     "_aula_virtual/SJK004/Unit2_Interaction.pdf",
     "_aula_virtual/SJK004/Unit3_AgendCommunications.pdf.crdownload",
@@ -265,12 +273,6 @@
     "_aula_virtual/SJK003/12-artificialNeuralNetwork.pdf",
     "SJK003 - MACHINE LEARNING/P12 - Artificial Neural Networks.md",
     "_res/_assets/_images/Pasted image 20241113175711.png",
-    "_res/_assets/_images/Pasted image 20241113175659.png",
-    "_res/_assets/_images/Pasted image 20241113174941.png",
-    "_res/_assets/_images/Pasted image 20241113174915.png",
-    "_res/_assets/_images/Pasted image 20241113174849.png",
-    "_res/_assets/_images/Pasted image 20241113174824.png",
-    "_res/_assets/_images/Pasted image 20241113174332.png",
     "SJK003 - MACHINE LEARNING/P2 - Evaluación de modelos.md",
     "_aula_virtual/SJK006/9a. Spark DataFrames.pdf.crdownload",
     "().md",

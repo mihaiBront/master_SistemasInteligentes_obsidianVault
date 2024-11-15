@@ -18,3 +18,31 @@ what is cooperation? the prisoner's dilemma, cooperative and non-cooperative enc
 
 ![[Pasted image 20241114161042.png]]
 
+## KQML communication options:
+
+When A knows who knows the value of X:
+![[Pasted image 20241114161318.png]]
+
+If not:
+![[Pasted image 20241114161328.png]]
+Other alternatives:
+![[Pasted image 20241114161422.png]]
+
+<b style="color:red">Drawbacks</b>
+- too many performative 
+- standalone implementation 
+- Transport mechanisms not defined 
+- Semantics defined in natural language 
+- Does not have commissives
+
+## FIPA:
+![[Pasted image 20241114161657.png]]
+
+![[Pasted image 20241114161832.png]]
+
+![[Pasted image 20241114162351.png]]
+
+>[!example] Message example
+>![[Pasted image 20241114162333.png]]
+
+
