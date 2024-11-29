@@ -19,5 +19,7 @@
   "obsidian-pandoc",
   "obsidian-enhancing-export",
   "pdf-plus",
-  "obsidian-git"
+  "obsidian-git",
+  "omnisearch",
+  "text-extractor"
 ]
