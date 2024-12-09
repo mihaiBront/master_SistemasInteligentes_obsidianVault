@@ -21,8 +21,36 @@
               "icon": "lucide-file",
               "title": "P15 - Deep Transfer Learning"
             }
+          },
+          {
+            "id": "6178b4c841c6fd13",
+            "type": "leaf",
+            "state": {
+              "type": "diff-view",
+              "state": {
+                "file": "_res/_assets/_images/Pasted image 20241206102652.png",
+                "staged": true
+              },
+              "icon": "git-pull-request",
+              "title": "Diff View (Pasted image 20241206102652.png)"
+            }
+          },
+          {
+            "id": "c85f1e37334c7e73",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "64dbac5b815e9201",
@@ -251,13 +279,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6c875f79ed071be8",
+  "active": "c85f1e37334c7e73",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "SJK003 - MACHINE LEARNING/P15 - Deep Transfer Learning.md",
+    "_res/_assets/_images/Pasted image 20241206102652.png",
+    "SJK003 - MACHINE LEARNING/T1 - TensorFlow with Cuda in WSL.md",
     "_res/_assets/_images/Pasted image 20241204175024.png",
     "_res/_assets/_images/Pasted image 20241204175019.png",
     "_res/_assets/_images/Pasted image 20241204174940.png",
     "_aula_virtual/SJK003/15-transferLearning.pdf",
-    "SJK003 - MACHINE LEARNING/P15 - Deep Transfer Learning.md",
     "SJK003 - MACHINE LEARNING/P14 - Over-fitting and Regularization.md",
     "_aula_virtual/SJK003/07-linearRegression.pdf",
     "_aula_virtual/SJK003/14-overfittingRegularization.pdf",
@@ -268,8 +299,6 @@
     "_res/_assets/_images/Pasted image 20241204161224.png",
     "_res/_assets/_images/Pasted image 20241204161222.png",
     "_res/_assets/_images/Pasted image 20241204161205.png",
-    "_res/_assets/_images/Pasted image 20241204161203.png",
-    "_res/_assets/_images/Pasted image 20241204161158.png",
     "SJK004 - COMPUTATIONAL INTELLIGENCE/P5 - Reaching agreements.md",
     "_aula_virtual/SJK004/Unit 5 Reaching agreements.pdf",
     "SJK004 - COMPUTATIONAL INTELLIGENCE/P3 - Agent Communications.md",
@@ -298,7 +327,6 @@
     "SJK006 - BIG DATA ANALYTICS/P7 - Scaling up data analytics.md",
     "SJK003 - MACHINE LEARNING/P4 - Distance-based Classifiers.md",
     "SJK001 - CYBER-PHYSICAL AND ROBOTIC INTELLIGENT SYSTEMS/P5 - Classical vs Reactive Robots.md",
-    "SJK001 - CYBER-PHYSICAL AND ROBOTIC INTELLIGENT SYSTEMS/P1 - Introduction to robotic intelligence. Classical AI & The Hierarchical Paradigm.md",
-    "_res/_dailyNotes/2024-11-05.md"
+    "SJK001 - CYBER-PHYSICAL AND ROBOTIC INTELLIGENT SYSTEMS/P1 - Introduction to robotic intelligence. Classical AI & The Hierarchical Paradigm.md"
   ]
 }
