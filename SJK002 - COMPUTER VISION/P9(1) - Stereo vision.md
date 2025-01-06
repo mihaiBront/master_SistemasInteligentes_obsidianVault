@@ -89,11 +89,11 @@ This system could be solved by simply solving an equation system, but our system
 $$Am = b$$
 $$A^tAm = A^tb$$
 $$m=(A^tA)^{-1}A^tb$$
->[!fail] Drawbacks
+>[!Success] Advantages
 >- All camera parameters summarized in a single matrix. 
 >- Can predict how any 3D point is projected into the image plane.
 
->[!success] Disadvantages: 
+>[!fail] Disadvantages: 
 >- Does not provide specific information for each of the camera parameters. 
 >- Mixture of intrinsic and extrinsic parameters: 
 >	- Dependent on camera position. 
@@ -137,7 +137,7 @@ Making possible to calculate the depth of a point.
 ![[Pasted image 20241028171320.png]]
 
 1. Imagine the cameras are indeed parallel (we know the base distance ($b$))
-2. We have to perform the $2^{nd}$, as well as the third camera rotation, which will not affect the y and z parameters
+2. We have to correct perspective for the $2^{nd}$, as well as the third camera rotation, which will not affect the y and z parameters
    ![[Pasted image 20241028171753.png]]
 3. From this point, the cameras are "parallel" and we can proceed in the same way as before
 

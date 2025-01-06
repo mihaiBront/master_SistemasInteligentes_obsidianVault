@@ -93,12 +93,13 @@ The gradient method is very susceptible to noise in contours, their contours are
 >- The derivative on the right
 >$$
 >f'(x) = \frac{f(i+1) - f(i)}{samplingPeriod}
->$$.
+>$$
 >- Or, why not, the derivative on the left
 >$$
 >f'(x) = \frac{f(i) - f(i-1)}{samplingPeriod}
 >$$
 >Which would take the same value for a continuous function, but not necessarily in a discrete space
+
 
 
 - **The simplest gradient**:
@@ -243,4 +244,3 @@ $\sigma$ controls the amount of smoothing
 	- better localization
 	- More sensitive to noise / More false edges
 	- More precision to locate edges
-

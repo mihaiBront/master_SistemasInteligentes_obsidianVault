@@ -108,7 +108,7 @@ Actually, the resulting DFT Magnitud image, would not be exactly like that, but 
 
 *How does a convolution translates to the frequency realm?*
 
-If we convolute an image with a kernel: $f*g=h$, it translates into a frequency-by-frequency product of $F * G = H$. In other words, the result of the convolution's Fourier transform multiplied by the image's Fourier transform.
+If we convolute an image with a kernel: $f*g=h$, it translates into a frequency-by-frequency product of $F · G = H$. In other words, the result of the convolution's Fourier transform multiplied by the image's Fourier transform.
 
 Then, to recover the "original image but filtered", we also have to multiply the phase (actually, we multiply the complex polar form).
 

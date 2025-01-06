@@ -166,7 +166,7 @@ Evolution of simple contours defined by user, to adapt to the shape inside or cl
 flowchart TD
 
 A(image) --> B[scan pixel by pixel]
-B --> C(pixel is notg background)
+B --> C(pixel is not background)
 C --> D[check neigbors]
 D --> E(neigbors already labelled)
 D --> F(none of the neighbors are labelled)

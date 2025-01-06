@@ -60,7 +60,7 @@ In natural lenguage, we could say that it is reduced to:
 >[!note] Kernels are usually required to be of odd sizes
 >Kernels are usually odd-sized (`3x3`, `5x5`, `5x7`...), that is because, with an even sized kernel, there is no exact center defined. You CAN use an even-sized kernel but the result of the convolution would be ever so slightly displaced (the bigger the kernell, the lesser the desplacement)
 
-## 3.2.2 Median filter (ideal low-pass filter)
+## 3.2.2 Mean filter (ideal low-pass filter)
 
 The kernel (a $3x3$ example) would be:
 $$
@@ -134,7 +134,7 @@ Properties
 >![[Pasted image 20240923161349.png]]
 
 >[!quote] Advancements
->**Anisotropic**: Not equal in all direction -> Preserves well the *second order discontinuities*
+>**Anisotropic**: Not equal in all directions -> Preserves well the *second order discontinuities*
 >**First order disctontinuities**: *Borders*
 >**Second order discontinuities**: *Corners* are considered second order discontinuities, and as you can see, median does not preserve them well
 

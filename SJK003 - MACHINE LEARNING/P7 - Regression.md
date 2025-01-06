@@ -31,18 +31,18 @@
 >[!note]
 >On the bottom row, although there is, obviously some kind of order in the samples, since there is no linear relation, the Parson coef. is 0 (no linear correlation)
 		
-		![[Pasted image 20241002162314.png]]
+![[Pasted image 20241002162314.png]]
 		
 >[!example] Visual case:
 >![[Pasted image 20241002162725.png]]
 >- (a) and (b): the points fit perfectly on the straight line, so that we have a linear relationship between the two variables:
->	- (a): with negative slope, which indicates that as X increases, Y becomes smaller and smaller.
->	- (b) with positive slope.
->- (c): it is possible to ensure the existence of a strong relationship between the two variables, but it is not a linear relationship.
->- (d): the points are completely dispersed, so that there is no type of relationship between the variables. 
+>	- (a): with negative slope, which indicates that as X increases, Y becomes smaller and smaller -> $r<0$
+>	- (b) with positive slope. $r>0$
+>- (c): it is possible to ensure the existence of a strong relationship between the two variables, but it is not a linear relationship. $r=0$
+>- (d): the points are completely dispersed, so that there is no type of relationship between the variables. $r=0$
 >- (e) and (f): there is some kind of linear relationship between the two variables: 
->	- (e): a type of linear dependence with a negative slope.
->	- (f): linear relationship with positive slope, but not as strong as the previous case.
+>	- (e): a type of linear dependence with a negative slope $-0.8<r<-0.5$.
+>	- (f): linear relationship with positive slope, but not as strong as the previous case. $0<r<0.8$.
 >
 >![[Pasted image 20241002163015.png]]
 
@@ -120,7 +120,7 @@ interpreting the result of the hypothesis test
 - if 𝑝-value ≤ 𝛼 means that there is sufficient evidence at the level $\alpha$ to conclude that there is a linear relationship in the population between the predictor and response variables → we reject the null hypothesis $𝐻_0$ – rejecting $𝐻_0$ entails accepting 𝐻𝑎 → there is a significant linear relationship between the variables 
 - given 𝑇 and 𝑛 − 2, the 𝑝-value is obtained from the Student’s t-distribution tables or from some web sites
 
->[!example] Example reggression:
+>[!example] #exam Example reggression:
 >Sample set
 >![[Pasted image 20241010182602.png]]
 >Calculation of $\beta_0$, $\beta_1$

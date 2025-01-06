@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "6212950644602ade",
+        "id": "5ef23840f81b1a04",
         "type": "tabs",
         "children": [
           {
-            "id": "c85f1e37334c7e73",
+            "id": "663756e94c08d5d4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SJK002 - COMPUTER VISION/EXAM - SOLVED QUESTIONS.md",
+                "file": "SJK002 - COMPUTER VISION/P3 - Image Filtering in Spatial Domain.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "EXAM - SOLVED QUESTIONS"
+              "title": "P3 - Image Filtering in Spatial Domain"
             }
           }
         ]
@@ -52,11 +52,11 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#KNBN-Investigate",
+                "query": "#exam",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
-                "extraContext": false,
+                "extraContext": true,
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_aula_virtual/SJK004/Unit2_Interaction.pdf",
+                "file": "_aula_virtual/SJK006/7. Scaling up Data Analytics.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Unit2_Interaction"
+              "title": "Backlinks for 7. Scaling up Data Analytics"
             }
           },
           {
@@ -153,10 +153,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SJK003 - MACHINE LEARNING/P15 - Deep Transfer Learning.md"
+                "file": "_aula_virtual/SJK006/7. Scaling up Data Analytics.pdf"
               },
               "icon": "lucide-list",
-              "title": "Outline of P15 - Deep Transfer Learning"
+              "title": "Outline of 7. Scaling up Data Analytics"
             }
           },
           {
@@ -198,18 +198,26 @@
               "icon": "lucide-calendar",
               "title": "Calendar"
             }
+          },
+          {
+            "id": "f8676563703bbd6d",
+            "type": "leaf",
+            "state": {
+              "type": "mermaid-toolbar-view",
+              "state": {},
+              "icon": "trident-custom",
+              "title": "Mermaid Toolbar"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 464.5
   },
   "left-ribbon": {
     "hiddenItems": {
-      "omnisearch:Omnisearch": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -224,57 +232,58 @@
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
       "pdf-plus:PDF++: Toggle auto-paste": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "omnisearch:Omnisearch": false
     }
   },
-  "active": "c85f1e37334c7e73",
+  "active": "663756e94c08d5d4",
   "lastOpenFiles": [
-    "SJK003 - MACHINE LEARNING/X0 - Comparation between different classifiers or regressors.md",
-    "_aula_virtual/README 1.md",
-    "_aula_virtual/~$ADME 1.docx",
-    "_aula_virtual/README 1.docx",
-    "_aula_virtual/README.md",
-    "_aula_virtual/~$README.docx",
-    "_aula_virtual/README.docx",
-    "SJK003 - MACHINE LEARNING/P16 - Reinforcement Learning.md",
-    "_res/_assets/_images/Pasted image 20241218173134.png",
+    "_res/_assets/_images/Pasted image 20250105200240.png",
+    "_res/_assets/_images/Pasted image 20250105194620.png",
+    "_res/_assets/_images/Pasted image 20250105194237.png",
+    "_res/_assets/_images/Pasted image 20250105193811.png",
+    "_res/_assets/_images/Pasted image 20250105193458.png",
+    "_res/_assets/_images/Pasted image 20250105193437.png",
+    "_res/_assets/_images/Pasted image 20250105193359.png",
+    "_res/_assets/_images/Pasted image 20250105193327.png",
+    "_res/_assets/_images/Pasted image 20250105191850.png",
+    "_res/_assets/_images/Pasted image 20250105191820.png",
+    "_res/_assets/_images/Pasted image 20250105190758.png",
+    "_aula_virtual/SJK003/16-rl.pdf",
+    "_aula_virtual/SJK003/15-transfer-learning.pdf",
+    "_aula_virtual/SJK003/14-overfitting-regularization.pdf",
+    "_aula_virtual/SJK003/13-cnn.pdf",
+    "SJK003 - MACHINE LEARNING/S0 - Keypoints.md",
     "_aula_virtual/SJK003/16-reinforcementLearning.pdf",
-    "_res/_assets/_images/Pasted image 20241218172606.png",
-    "_res/_assets/_images/Pasted image 20241218163928.png",
-    "_res/_assets/_images/Pasted image 20241218163632.png",
-    "_res/_assets/_images/Pasted image 20241218163630.png",
-    "_res/_assets/_images/Pasted image 20241218161051.png",
-    "_res/_assets/_images/Pasted image 20241218154328.png",
-    "_res/_assets/_images/Pasted image 20241218153413.png",
-    "_aula_virtual/SJK003/e1a302b6-22d2-4b89-959c-4ed49425af3c.jpg",
-    "_aula_virtual/SJK003/e1a302b6-22d2-4b89-959c-4ed49425af3c.jpg.crdownload",
-    "SJK003 - MACHINE LEARNING/P15 - Deep Transfer Learning.md",
-    "_aula_virtual/SJK003/15-transferLearning.pdf",
-    "_res/_assets/_images/Pasted image 20241217172641.png",
-    "_aula_virtual/SJK003/5-rl.pdf",
-    "_aula_virtual/SJK003/16-ReinforcementLearning.pdf.crdownload",
-    "_aula_virtual/SJK003/5-rl.pdf.crdownload",
-    "SJK003 - MACHINE LEARNING/T1 - TensorFlow with Cuda in WSL.md",
+    "_aula_virtual/README.md",
+    "_aula_virtual/README.docx",
+    "_aula_virtual/README 1.md",
+    "_aula_virtual/README 1.docx",
+    "SJK003 - MACHINE LEARNING/P16 - Reinforcement Learning.md",
     "SJK002 - COMPUTER VISION/EXAM - SOLVED QUESTIONS.md",
-    "conflict-files-obsidian-git.md",
-    "SJK003 - MACHINE LEARNING/P14 - Over-fitting and Regularization.md",
+    "_aula_virtual/SJK004/Unit 5 Reaching agreements.pdf",
+    "_aula_virtual/SJK004/Unit 4_Cooperation_first.pdf",
+    "_aula_virtual/SJK004/Unit 3_AgendCommunications.pdf",
+    "Untitled.canvas",
     "SJK004 - COMPUTATIONAL INTELLIGENCE/P5 - Reaching agreements.md",
-    "SJK004 - COMPUTATIONAL INTELLIGENCE/P3 - Agent Communications.md",
-    "SJK004 - COMPUTATIONAL INTELLIGENCE/P2 - Modelling multiagent interaction using game theory.md",
     "SJK004 - COMPUTATIONAL INTELLIGENCE/P4 - Cooperative and Distributed Problem Solving.md",
-    "json_API.md",
-    "().md",
+    "SJK003 - MACHINE LEARNING/P15 - Deep Transfer Learning.md",
+    "SJK003 - MACHINE LEARNING/P14 - Over-fitting and Regularization.md",
     "SJK003 - MACHINE LEARNING/P13 - CNN (convolutional neural networks).md",
     "SJK002 - COMPUTER VISION/P11 - cNNs in Computer Vision.md",
-    "Untitled.canvas",
-    "SJK003 - MACHINE LEARNING/P1 - Introduction to machine learning.md",
-    "SJK002 - COMPUTER VISION/P10 - Motion estimation; Optical flow and image registration.md",
     "SJK001 - CYBER-PHYSICAL AND ROBOTIC INTELLIGENT SYSTEMS/P6 - Robotic intelligence.md",
-    "SJK006 - BIG DATA ANALYTICS/P9 - Data Streaming.md",
+    "SJK002 - COMPUTER VISION/P3 - Image Filtering in Spatial Domain.md",
+    "SJK002 - COMPUTER VISION/P1-P2.2 - Introducción a la visión.md",
     "SJK003 - MACHINE LEARNING/P12 - Artificial Neural Networks.md",
-    "SJK003 - MACHINE LEARNING/P2 - Evaluación de modelos.md",
     "SJK002 - COMPUTER VISION/P9(2) - Active 3D vision.md",
-    "_res/_dailyNotes/2024-11-14.md",
-    "_res/_dailyNotes/2024-11-07.md"
+    "SJK003 - MACHINE LEARNING/P8 - Multi-Classifiers.md",
+    "SJK003 - MACHINE LEARNING/P7 - Regression.md",
+    "SJK003 - MACHINE LEARNING/P9 - Clustering (non supervised learning).md",
+    "SJK003 - MACHINE LEARNING/P2 - Evaluación de modelos.md",
+    "SJK002 - COMPUTER VISION/P10 - Motion estimation; Optical flow and image registration.md",
+    "SJK002 - COMPUTER VISION/P9(1) - Stereo vision.md",
+    "SJK002 - COMPUTER VISION/P8 - Interest Points (bag of words).md",
+    "SJK003 - MACHINE LEARNING/P6 - SVM.md",
+    "SJK002 - COMPUTER VISION/P7 - Image segmentation.md"
   ]
 }
